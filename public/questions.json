@@ -1289,417 +1289,402 @@
 			],
 			"correctAnswer": 0
 		},
+
 		{
-			"questions": [
-				{
-					"id": 115,
-					"question": "Determine the correct statement about prefab variants:",
-					"options": [
-						"A variant is a child prefab with modifications that still inherits from the original",
-						"Changes in a variant override the base prefab permanently",
-						"Variants can't use nested prefabs",
-						"You can't override transforms in prefab variants",
-						"Variants must reside in the same folder as the original prefab"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 116,
-					"question": "Which Unity lighting mode bakes only indirect lighting and allows dynamic lights to cast real-time shadows?",
-					"options": [
-						"Dynamic",
-						"Baked",
-						"Mixed",
-						"Static",
-						"Realtime"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 117,
-					"question": "Which of these Unity systems is used to create and manage game animations?",
-					"options": [
-						"NavMesh",
-						"Audio Mixer",
-						"Lightmap System",
-						"Physics Engine",
-						"Animator Controller"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 118,
-					"question": "Which Unity method is used to destroy a game object during runtime?",
-					"options": ["Remove", "Destroy", "Kill", "Erase", "Delete"],
-					"correctAnswer": 1
-				},
-				{
-					"id": 119,
-					"question": "How can you prevent a GameObject from receiving physics forces while keeping it visible in the scene?",
-					"options": [
-						"Disable the GameObject",
-						"Set the 'Collider.isTrigger' property to true",
-						"Set 'Rigidbody.isKinematic' to true",
-						"Remove the 'Rigidbody' component",
-						"Remove the 'Collider' component"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 120,
-					"question": "Which Unity component can be used to detect triggers or collisions while simulating physics in a 2D game?",
-					"options": [
-						"TriggerCollider2D",
-						"Rigidbody2D",
-						"Collider2D",
-						"Physics2D",
-						"MeshCollider2D"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 121,
-					"question": "How do you remove a component from a GameObject?",
-					"options": [
-						"Destroy(gameObject.GetComponent<T>())",
-						"gameObject.DeleteComponent<T>()",
-						"gameObject.RemoveComponent()",
-						"gameObject.DestroyComponent()",
-						"gameObject.RemoveComponent<T>()"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 122,
-					"question": "What is a valid use case for LateUpdate() instead of Update()?",
-					"options": [
-						"Executing UI rendering logic before physics",
-						"Initializing static variables",
-						"Accessing Input system",
-						"Performing calculations with Time.deltaTime",
-						"Repositioning camera after all movement"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 123,
-					"question": "What property of a Rigidbody allows an object to slide along a surface without rotating?",
-					"options": [
-						"LinearVelocity",
-						"Constraints",
-						"Friction",
-						"RigidbodyType",
-						"KinematicState"
-					],
-					"correctAnswer": 1
-				},
-				{
-					"id": 124,
-					"question": "What is the effect of setting a Rigidbody's drag to 0?",
-					"options": [
-						"The object will accelerate infinitely",
-						"The object will behave like a particle",
-						"The object will move at constant speed",
-						"The object will float",
-						"The object will stop instantly"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 125,
-					"question": "Which Unity interface panel allows you to switch between tools like Move, Rotate, and Scale?",
-					"options": [
-						"Project",
-						"Toolbar",
-						"Asset Store",
-						"Hierarchy",
-						"Inspector"
-					],
-					"correctAnswer": 1
-				},
-				{
-					"id": 126,
-					"question": "What is the result of adding a 'Collider' component to a GameObject with a 'Rigidbody' attached and setting the 'isTrigger' property of the collider to true?",
-					"options": [
-						"The object will be affected by gravity",
-						"The GameObject will become invisible",
-						"The GameObject will stop interacting with other objects",
-						"The GameObject will be destroyed",
-						"The object will ignore physics calculations but still trigger events"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 127,
-					"question": "Which Unity platform build target is used for publishing games on Android devices?",
-					"options": ["Linux", "Android", "Windows", "MacOS", "iOS"],
-					"correctAnswer": 1
-				},
-				{
-					"id": 128,
-					"question": "Which Unity feature allows advanced mixing, ducking, and snapshots?",
-					"options": [
-						"Audio Listener",
-						"Audio Mixer",
-						"Audio Group",
-						"Audio Filter",
-						"Audio Source"
-					],
-					"correctAnswer": 1
-				},
-				{
-					"id": 129,
-					"question": "Which camera projection in Unity maintains object size regardless of distance?",
-					"options": [
-						"Orthographic",
-						"Depth",
-						"RealWorld",
-						"Cinemachine",
-						"Perspective"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 130,
-					"question": "Which Unity light type emits light in all directions from a single point?",
-					"options": [
-						"Directional",
-						"Hemisphere",
-						"Area",
-						"Spot",
-						"Point"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 131,
-					"question": "What happens when an AudioSource has its PlayOnAwake property set to true?",
-					"options": [
-						"It waits for a user input",
-						"It plays after a delay",
-						"It plays only when triggered by animation",
-						"It plays only on collision",
-						"It plays automatically when the scene starts"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 132,
-					"question": "Which Unity component displays the camera feed behind AR content?",
-					"options": [
-						"AR Live View",
-						"Depth Renderer",
-						"AR Camera Background",
-						"XR Video Player",
-						"AR Overlay"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 133,
-					"question": "Which function can be used to detect if two colliders are touching?",
-					"options": [
-						"OnCollisionExit()",
-						"OnContactStay()",
-						"OnCollisionStay()",
-						"OnTriggerExit()",
-						"OnTriggerStay()"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 134,
-					"question": "Timeline is mainly used to orchestrate which Unity feature?",
-					"options": [
-						"Physics collisions",
-						"Debugging",
-						"Script execution order",
-						"Networking",
-						"Cinematic sequences"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 135,
-					"question": "What does setting the 'isKinematic' property of a Rigidbody to true do?",
-					"options": [
-						"The Rigidbody will be invisible.",
-						"The Rigidbody will move normally.",
-						"The Rigidbody will not respond to physics forces.",
-						"The Rigidbody will interact with all physics objects.",
-						"The Rigidbody will rotate automatically."
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 136,
-					"question": "What does the Timeline clip length affect?",
-					"options": [
-						"Physics simulation",
-						"Script priority",
-						"Light baking",
-						"UI rendering",
-						"Animation duration"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 137,
-					"question": "What Unity component renders the view of the scene to a texture?",
-					"options": [
-						"Texture2D",
-						"Camera Target",
-						"Render Texture",
-						"Light Probe",
-						"Reflection Probe"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 138,
-					"question": "How can you mute an AudioSource based on a condition using a ternary operator?",
-					"options": [
-						"audioSource.SetMute(isQuiet);",
-						"audioSource.mute = (isQuiet) ? false : true;",
-						"audioSource.mute = isQuiet ? true : false;",
-						"audioSource.enabled = (true) ? isQuiet : false;",
-						"audioSource.volume = (isQuiet) ? 1.0f : 0.0f;"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 139,
-					"question": "Which is TRUE about World Space Render Mode in Unity?",
-					"options": [
-						"UI does not require a Canvas",
-						"UI ignores lighting",
-						"UI automatically fits the screen",
-						"UI behaves like 3D objects in the scene",
-						"UI is rendered in front of all 3D elements"
-					],
-					"correctAnswer": 3
-				},
-				{
-					"id": 140,
-					"question": "Which type of Collider should be used for a character in Unity to allow for accurate collision detection?",
-					"options": [
-						"CapsuleCollider",
-						"MeshCollider",
-						"BoxCollider",
-						"SphereCollider",
-						"WheelCollider"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 141,
-					"question": "Why is the Scene View important during development?",
-					"options": [
-						"It allows spatial arrangement of GameObjects",
-						"It displays console logs",
-						"It plays audio",
-						"It creates build folders",
-						"It stores scripts"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 142,
-					"question": "To change scenes using scripting, you use the LoadLevel() method, which is part of what object?",
-					"options": [
-						"SceneManager",
-						"Application",
-						"GameObject",
-						"LevelManager",
-						"GameManager"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 143,
-					"question": "What is the primary purpose of an Animator Controller in Unity?",
-					"options": [
-						"To control physics behaviors",
-						"To manage UI transitions",
-						"To manage animation states and transitions",
-						"To edit prefabs directly",
-						"To import 3D models"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 144,
-					"question": "AnimationWindow in Unity is used to create and edit what?",
-					"options": [
-						"UI Panels",
-						"Rigidbodies",
-						"Cameras",
-						"Keyframe animations",
-						"Terrain"
-					],
-					"correctAnswer": 3
-				},
-				{
-					"id": 145,
-					"question": "Which XR support package adds Project Settings for managing the platforms and plugins used by a Unity XR project?",
-					"options": [
-						"XR Plug-in Management",
-						"XR Hands",
-						"AR Foundation",
-						"XR Interaction Toolkit",
-						"OpenXR Plug-in"
-					],
-					"correctAnswer": 0
-				},
-				{
-					"id": 146,
-					"question": "What is the impact of switching from 'Perspective' to 'Orthographic' mode in Scene View?",
-					"options": [
-						"Affects the Game View camera",
-						"Displays wireframes only",
-						"Adds lighting visualization",
-						"Enables rendering of UI only",
-						"Removes vanishing point and shows flat view"
-					],
-					"correctAnswer": 4
-				},
-				{
-					"id": 147,
-					"question": "What does the loop property of an AudioSource do?",
-					"options": [
-						"Sets a delay before playback",
-						"Repeats the audio clip indefinitely",
-						"Changes the mixer group",
-						"Plays audio backward",
-						"Enables 3D spatialization"
-					],
-					"correctAnswer": 1
-				},
-				{
-					"id": 148,
-					"question": "How do anchors work in Unity UI?",
-					"options": [
-						"They provide physics-based constraints",
-						"They fix UI elements to screen corners",
-						"They allow dynamic resizing relative to parent",
-						"They reset pivot points to world origin",
-						"They attach elements to the Event System"
-					],
-					"correctAnswer": 2
-				},
-				{
-					"id": 149,
-					"question": "Which Unity element can be used to block raycasts underneath a UI panel?",
-					"options": [
-						"Graphic Raycaster",
-						"Canvas Group",
-						"Event Mask",
-						"Image (with Raycast Target enabled)",
-						"Raycast Filter"
-					],
-					"correctAnswer": 3
-				}
-			]
+			"id": 115,
+			"question": "Determine the correct statement about prefab variants:",
+			"options": [
+				"A variant is a child prefab with modifications that still inherits from the original",
+				"Changes in a variant override the base prefab permanently",
+				"Variants can't use nested prefabs",
+				"You can't override transforms in prefab variants",
+				"Variants must reside in the same folder as the original prefab"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 116,
+			"question": "Which Unity lighting mode bakes only indirect lighting and allows dynamic lights to cast real-time shadows?",
+			"options": ["Dynamic", "Baked", "Mixed", "Static", "Realtime"],
+			"correctAnswer": 2
+		},
+		{
+			"id": 117,
+			"question": "Which of these Unity systems is used to create and manage game animations?",
+			"options": [
+				"NavMesh",
+				"Audio Mixer",
+				"Lightmap System",
+				"Physics Engine",
+				"Animator Controller"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 118,
+			"question": "Which Unity method is used to destroy a game object during runtime?",
+			"options": ["Remove", "Destroy", "Kill", "Erase", "Delete"],
+			"correctAnswer": 1
+		},
+		{
+			"id": 119,
+			"question": "How can you prevent a GameObject from receiving physics forces while keeping it visible in the scene?",
+			"options": [
+				"Disable the GameObject",
+				"Set the 'Collider.isTrigger' property to true",
+				"Set 'Rigidbody.isKinematic' to true",
+				"Remove the 'Rigidbody' component",
+				"Remove the 'Collider' component"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 120,
+			"question": "Which Unity component can be used to detect triggers or collisions while simulating physics in a 2D game?",
+			"options": [
+				"TriggerCollider2D",
+				"Rigidbody2D",
+				"Collider2D",
+				"Physics2D",
+				"MeshCollider2D"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 121,
+			"question": "How do you remove a component from a GameObject?",
+			"options": [
+				"Destroy(gameObject.GetComponent<T>())",
+				"gameObject.DeleteComponent<T>()",
+				"gameObject.RemoveComponent()",
+				"gameObject.DestroyComponent()",
+				"gameObject.RemoveComponent<T>()"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 122,
+			"question": "What is a valid use case for LateUpdate() instead of Update()?",
+			"options": [
+				"Executing UI rendering logic before physics",
+				"Initializing static variables",
+				"Accessing Input system",
+				"Performing calculations with Time.deltaTime",
+				"Repositioning camera after all movement"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 123,
+			"question": "What property of a Rigidbody allows an object to slide along a surface without rotating?",
+			"options": [
+				"LinearVelocity",
+				"Constraints",
+				"Friction",
+				"RigidbodyType",
+				"KinematicState"
+			],
+			"correctAnswer": 1
+		},
+		{
+			"id": 124,
+			"question": "What is the effect of setting a Rigidbody's drag to 0?",
+			"options": [
+				"The object will accelerate infinitely",
+				"The object will behave like a particle",
+				"The object will move at constant speed",
+				"The object will float",
+				"The object will stop instantly"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 125,
+			"question": "Which Unity interface panel allows you to switch between tools like Move, Rotate, and Scale?",
+			"options": [
+				"Project",
+				"Toolbar",
+				"Asset Store",
+				"Hierarchy",
+				"Inspector"
+			],
+			"correctAnswer": 1
+		},
+		{
+			"id": 126,
+			"question": "What is the result of adding a 'Collider' component to a GameObject with a 'Rigidbody' attached and setting the 'isTrigger' property of the collider to true?",
+			"options": [
+				"The object will be affected by gravity",
+				"The GameObject will become invisible",
+				"The GameObject will stop interacting with other objects",
+				"The GameObject will be destroyed",
+				"The object will ignore physics calculations but still trigger events"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 127,
+			"question": "Which Unity platform build target is used for publishing games on Android devices?",
+			"options": ["Linux", "Android", "Windows", "MacOS", "iOS"],
+			"correctAnswer": 1
+		},
+		{
+			"id": 128,
+			"question": "Which Unity feature allows advanced mixing, ducking, and snapshots?",
+			"options": [
+				"Audio Listener",
+				"Audio Mixer",
+				"Audio Group",
+				"Audio Filter",
+				"Audio Source"
+			],
+			"correctAnswer": 1
+		},
+		{
+			"id": 129,
+			"question": "Which camera projection in Unity maintains object size regardless of distance?",
+			"options": [
+				"Orthographic",
+				"Depth",
+				"RealWorld",
+				"Cinemachine",
+				"Perspective"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 130,
+			"question": "Which Unity light type emits light in all directions from a single point?",
+			"options": ["Directional", "Hemisphere", "Area", "Spot", "Point"],
+			"correctAnswer": 4
+		},
+		{
+			"id": 131,
+			"question": "What happens when an AudioSource has its PlayOnAwake property set to true?",
+			"options": [
+				"It waits for a user input",
+				"It plays after a delay",
+				"It plays only when triggered by animation",
+				"It plays only on collision",
+				"It plays automatically when the scene starts"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 132,
+			"question": "Which Unity component displays the camera feed behind AR content?",
+			"options": [
+				"AR Live View",
+				"Depth Renderer",
+				"AR Camera Background",
+				"XR Video Player",
+				"AR Overlay"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 133,
+			"question": "Which function can be used to detect if two colliders are touching?",
+			"options": [
+				"OnCollisionExit()",
+				"OnContactStay()",
+				"OnCollisionStay()",
+				"OnTriggerExit()",
+				"OnTriggerStay()"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 134,
+			"question": "Timeline is mainly used to orchestrate which Unity feature?",
+			"options": [
+				"Physics collisions",
+				"Debugging",
+				"Script execution order",
+				"Networking",
+				"Cinematic sequences"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 135,
+			"question": "What does setting the 'isKinematic' property of a Rigidbody to true do?",
+			"options": [
+				"The Rigidbody will be invisible.",
+				"The Rigidbody will move normally.",
+				"The Rigidbody will not respond to physics forces.",
+				"The Rigidbody will interact with all physics objects.",
+				"The Rigidbody will rotate automatically."
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 136,
+			"question": "What does the Timeline clip length affect?",
+			"options": [
+				"Physics simulation",
+				"Script priority",
+				"Light baking",
+				"UI rendering",
+				"Animation duration"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 137,
+			"question": "What Unity component renders the view of the scene to a texture?",
+			"options": [
+				"Texture2D",
+				"Camera Target",
+				"Render Texture",
+				"Light Probe",
+				"Reflection Probe"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 138,
+			"question": "How can you mute an AudioSource based on a condition using a ternary operator?",
+			"options": [
+				"audioSource.SetMute(isQuiet);",
+				"audioSource.mute = (isQuiet) ? false : true;",
+				"audioSource.mute = isQuiet ? true : false;",
+				"audioSource.enabled = (true) ? isQuiet : false;",
+				"audioSource.volume = (isQuiet) ? 1.0f : 0.0f;"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 139,
+			"question": "Which is TRUE about World Space Render Mode in Unity?",
+			"options": [
+				"UI does not require a Canvas",
+				"UI ignores lighting",
+				"UI automatically fits the screen",
+				"UI behaves like 3D objects in the scene",
+				"UI is rendered in front of all 3D elements"
+			],
+			"correctAnswer": 3
+		},
+		{
+			"id": 140,
+			"question": "Which type of Collider should be used for a character in Unity to allow for accurate collision detection?",
+			"options": [
+				"CapsuleCollider",
+				"MeshCollider",
+				"BoxCollider",
+				"SphereCollider",
+				"WheelCollider"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 141,
+			"question": "Why is the Scene View important during development?",
+			"options": [
+				"It allows spatial arrangement of GameObjects",
+				"It displays console logs",
+				"It plays audio",
+				"It creates build folders",
+				"It stores scripts"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 142,
+			"question": "To change scenes using scripting, you use the LoadLevel() method, which is part of what object?",
+			"options": [
+				"SceneManager",
+				"Application",
+				"GameObject",
+				"LevelManager",
+				"GameManager"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 143,
+			"question": "What is the primary purpose of an Animator Controller in Unity?",
+			"options": [
+				"To control physics behaviors",
+				"To manage UI transitions",
+				"To manage animation states and transitions",
+				"To edit prefabs directly",
+				"To import 3D models"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 144,
+			"question": "AnimationWindow in Unity is used to create and edit what?",
+			"options": [
+				"UI Panels",
+				"Rigidbodies",
+				"Cameras",
+				"Keyframe animations",
+				"Terrain"
+			],
+			"correctAnswer": 3
+		},
+		{
+			"id": 145,
+			"question": "Which XR support package adds Project Settings for managing the platforms and plugins used by a Unity XR project?",
+			"options": [
+				"XR Plug-in Management",
+				"XR Hands",
+				"AR Foundation",
+				"XR Interaction Toolkit",
+				"OpenXR Plug-in"
+			],
+			"correctAnswer": 0
+		},
+		{
+			"id": 146,
+			"question": "What is the impact of switching from 'Perspective' to 'Orthographic' mode in Scene View?",
+			"options": [
+				"Affects the Game View camera",
+				"Displays wireframes only",
+				"Adds lighting visualization",
+				"Enables rendering of UI only",
+				"Removes vanishing point and shows flat view"
+			],
+			"correctAnswer": 4
+		},
+		{
+			"id": 147,
+			"question": "What does the loop property of an AudioSource do?",
+			"options": [
+				"Sets a delay before playback",
+				"Repeats the audio clip indefinitely",
+				"Changes the mixer group",
+				"Plays audio backward",
+				"Enables 3D spatialization"
+			],
+			"correctAnswer": 1
+		},
+		{
+			"id": 148,
+			"question": "How do anchors work in Unity UI?",
+			"options": [
+				"They provide physics-based constraints",
+				"They fix UI elements to screen corners",
+				"They allow dynamic resizing relative to parent",
+				"They reset pivot points to world origin",
+				"They attach elements to the Event System"
+			],
+			"correctAnswer": 2
+		},
+		{
+			"id": 149,
+			"question": "Which Unity element can be used to block raycasts underneath a UI panel?",
+			"options": [
+				"Graphic Raycaster",
+				"Canvas Group",
+				"Event Mask",
+				"Image (with Raycast Target enabled)",
+				"Raycast Filter"
+			],
+			"correctAnswer": 3
 		}
 	]
 }
