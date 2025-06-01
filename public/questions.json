@@ -118,7 +118,7 @@
 				"The object will accelerate infinitely",
 				"The object will float"
 			],
-			"correctAnswer": 4
+			"correctAnswer": 2
 		},
 		{
 			"id": 11,
@@ -261,7 +261,7 @@
 				"The message 'Object clicked!' will be logged in the Console when the GameObject is clicked",
 				"The GameObject will move when clicked"
 			],
-			"correctAnswer": 3
+			"correctAnswer": 1
 		},
 		{
 			"id": 24,
