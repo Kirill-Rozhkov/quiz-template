@@ -5,10 +5,8 @@ const WelcomeScreen = ({ onStart, totalQuestions }) => {
 		<div className="welcome-screen">
 			<div className="welcome-card">
 				<div className="welcome-icon">🏆</div>
-				<h1 className="welcome-title">Unity Quiz</h1>
-				<p className="welcome-subtitle">
-					Test your Unity game development knowledge
-				</p>
+				<h1 className="welcome-title">Quiz</h1>
+				<p className="welcome-subtitle">Test your knowledge</p>
 
 				<div className="question-count">
 					<p className="question-count-text">
@@ -16,10 +14,10 @@ const WelcomeScreen = ({ onStart, totalQuestions }) => {
 					</p>
 				</div>
 
-				<p className="welcome-description">
+				{/* <p className="welcome-description">
 					Answer questions about Unity components, scripting, physics,
 					and game development concepts.
-				</p>
+				</p> */}
 
 				<button onClick={onStart} className="btn btn-primary">
 					Start Quiz →

@@ -6,7 +6,7 @@ const QuizHeader = ({ currentQuestion, totalQuestions }) => {
 	return (
 		<div className="quiz-header">
 			<div className="header-top">
-				<h1 className="quiz-title">Unity Quiz</h1>
+				<h1 className="quiz-title">Quiz</h1>
 				<span className="question-counter">
 					Question {currentQuestion + 1} of {totalQuestions}
 				</span>
