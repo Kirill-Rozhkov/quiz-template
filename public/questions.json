@@ -2,1689 +2,295 @@
 	"questions": [
 		{
 			"id": 1,
-			"question": "Which method can be used to get a component attached to a GameObject?",
-			"options": [
-				"gameObject.GetComponent<T>()",
-				"gameObject.GetComponentInParent()",
-				"gameObject.GetComponent()",
-				"All of the above",
-				"gameObject.GetComponentInChildren()"
-			],
-			"correctAnswer": 3
+			"question": "For certain services like Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS), you can invest in reserved capacity. What options are available for Reserved Instances? (Choose three.)",
+			"options": ["AURI", "MURI", "NURI", "PURI", "DURI"],
+			"correctAnswers": [0, 2, 3]
 		},
 		{
 			"id": 2,
-			"question": "Which of these Unity systems is used to create and manage game animations?",
+			"question": "Where can a customer go to get more details about Amazon Elastic Compute Cloud (Amazon EC2) billing activity that took place 3 months ago? (Select the best answer.)",
 			"options": [
-				"Audio Mixer",
-				"NavMesh",
-				"Lightmap System",
-				"Physics Engine",
-				"Animator Controller"
+				"Amazon EC2 dashboard",
+				"AWS Cost Explorer",
+				"AWS Trusted Advisor dashboard",
+				"AWS CloudTrail logs stored in Amazon Simple Storage Service (Amazon S3)"
 			],
-			"correctAnswer": 4
+			"correctAnswer": 1
 		},
 		{
 			"id": 3,
-			"question": "Which execution order is guaranteed in Unity's lifecycle?",
-			"options": [
-				"Awake → OnEnable → Start",
-				"Awake → Start → OnEnable",
-				"Update → OnEnable → Start",
-				"Start → Awake → Update",
-				"OnEnable → Update → Start"
-			],
-			"correctAnswer": 0
+			"question": "True or false? To receive the discounted rate associated with Reserved Instances, you must make a full, upfront payment for the term of the agreement.",
+			"options": ["True", "False"],
+			"correctAnswer": 1
 		},
 		{
 			"id": 4,
-			"question": "The _______ allows you to visually navigate and edit your scene. It can show a 3D or 2D perspective, depending on the type of project you are working on",
+			"question": "Which statement is true about the pricing model on AWS? (Select the best answer.)",
 			"options": [
-				"Project Window",
-				"Hierarchy Window",
-				"Scene View",
-				"Toolbar",
-				"Inspector Window"
+				"In most cases, there is a per gigabyte charge for inbound data transfer.",
+				"Storage is typically charged per gigabyte.",
+				"Compute is typically charged as a monthly fee based on instance type.",
+				"Outbound charges are free up to a per account limit."
 			],
-			"correctAnswer": 2
+			"correctAnswer": 1
 		},
 		{
 			"id": 5,
-			"question": "What Unity camera type is best for 2D games?",
+			"question": "What are the four support plans offered by AWS Support? (Select the best answer.)",
 			"options": [
-				"Depth Camera",
-				"Perspective Camera",
-				"VR Camera",
-				"Orthographic Camera",
-				"Render Texture Camera"
+				"Basic, Developer, Business, Enterprise",
+				"Basic, Startup, Business, Enterprise",
+				"Free, Bronze, Silver, Gold",
+				"All support is free"
 			],
-			"correctAnswer": 3
+			"correctAnswer": 0
 		},
 		{
 			"id": 6,
-			"question": "What is the effect of increasing the normal map strength in a material?",
+			"question": "What AWS tool lets you explore AWS services and create an estimate for the cost of your use cases on AWS? (Select the best answer.)",
 			"options": [
-				"Changes the base color",
-				"Adds transparency to the surface",
-				"Makes the surface flatter",
-				"Smooths out all detail",
-				"Enhances surface detail by exaggerating light response"
+				"AWS Pricing Calculator",
+				"AWS Budgets",
+				"AWS Cost and Usage Report",
+				"AWS Billing Dashboard"
 			],
-			"correctAnswer": 4
+			"correctAnswer": 0
 		},
 		{
 			"id": 7,
-			"question": "What happens if you set a Rigidbody's velocity directly?",
+			"question": "As AWS grows, the cost of doing business is reduced and savings are passed back to the customer with lower pricing. What is this optimization called? (Select the best answer.)",
 			"options": [
-				"The object will stop instantly",
-				"The object will not respond to forces",
-				"The object will move with a constant velocity",
-				"The object will rotate unpredictably",
-				"The object will bounce"
+				"Expenditure awareness",
+				"Economies of scale",
+				"Matching supply and demand",
+				"EC2 Right Sizing"
 			],
-			"correctAnswer": 2
+			"correctAnswer": 1
 		},
 		{
 			"id": 8,
-			"question": "Which Scene View feature allows accurate placement of objects relative to surface geometry?",
-			"options": [
-				"Grid snapping",
-				"Surface snapping",
-				"Align with camera",
-				"Scene Statistics",
-				"Object grouping"
-			],
-			"correctAnswer": 1
+			"question": "True or false? AWS offers some services at no charge (for example, Amazon VPC, IAM, Consolidated Billing, Elastic Beanstalk, Auto Scaling, OpsWorks, CloudFormation). However, you might be charged for other AWS services that you use in conjunction with these services.",
+			"options": ["True", "False"],
+			"correctAnswer": 0
 		},
 		{
 			"id": 9,
-			"question": "Which Unity interface component allows developers to toggle between 2D and 3D view modes?",
+			"question": "What are benefits of using AWS Organizations? (Choose two.)",
 			"options": [
-				"Hierarchy",
-				"Scene View",
-				"Toolbar toggle",
-				"Game View",
-				"Asset Store"
+				"Replaces existing AWS Identity and Access Management (IAM) policies with service control policies (SCPs), which are simpler to manage",
+				"Provides the ability to create groups of accounts and then attach policies to a group",
+				"Provides the ability to create an unlimited number of nested organizational units (OUs) to support your desired structure",
+				"Simplifies automating account creation and management by using APIs",
+				"Prevents any restrictions from being put on the root user that is associated with the main organization in an account"
 			],
-			"correctAnswer": 2
+			"correctAnswers": [1, 3]
 		},
 		{
 			"id": 10,
-			"question": "What is the effect of setting a Rigidbody's drag to 0?",
-			"options": [
-				"The object will stop instantly",
-				"The object will move at constant speed",
-				"The object will behave like a particle",
-				"The object will accelerate infinitely",
-				"The object will float"
-			],
-			"correctAnswer": 2
+			"question": "True or false? Unlimited services are available with the AWS Free Tier to new AWS customers for 12 months following their AWS sign-up date.",
+			"options": ["True", "False"],
+			"correctAnswer": 1
 		},
 		{
 			"id": 11,
-			"question": "What is the role of a 'Rigidbody' component in Unity?",
+			"question": "Which component of the AWS Global Infrastructure does Amazon CloudFront use to ensure low-latency delivery? (Select the best answer.)",
 			"options": [
-				"To handle input from the user",
-				"To display the object on screen",
-				"To animate the object",
-				"To store information about the position of an object",
-				"To handle the physics simulation and apply forces to an object"
+				"AWS Regions",
+				"AWS edge locations",
+				"AWS Availability Zones",
+				"Amazon Virtual Private Cloud (Amazon VPC)"
 			],
-			"correctAnswer": 4
+			"correctAnswer": 1
 		},
 		{
 			"id": 12,
-			"question": "How can you prevent a GameObject from receiving physics forces while keeping it visible in the scene?",
-			"options": [
-				"Set 'Rigidbody.isKinematic' to true",
-				"Remove the 'Collider' component",
-				"Remove the 'Rigidbody' component",
-				"Disable the GameObject",
-				"Set the 'Collider.isTrigger' property to true"
-			],
-			"correctAnswer": 0
+			"question": "You can run applications and workloads from a Region closer to the end users to ______ latency.",
+			"options": ["increase", "decrease"],
+			"correctAnswer": 1
 		},
 		{
 			"id": 13,
-			"question": "In Unity, what shader type supports physically based rendering (PBR)?",
-			"options": [
-				"Unlit/Texture",
-				"Mobile/Unlit",
-				"Transparent/Diffuse",
-				"Standard Shader",
-				"Legacy/Diffuse"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 14,
-			"question": "The default _______ primitive is a square with edges one unit long, divided into two triangles, and is oriented in the xy plane of the local coordinate space. You can use it as a display screen for an image or movie. You can also use it to implement simple GUI and information displays, particles, sprites, and imposter images as substitutes for solid objects views at a distance",
-			"options": ["Cylinder", "Cube", "Capsule", "Sphere", "Quad"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 15,
-			"question": "What method is used to process user input per frame?",
-			"options": [
-				"Update()",
-				"OnGUI()",
-				"Input.GetMouseButtonDown()",
-				"Awake()",
-				"FixedUpdate()"
-			],
+			"question": "True or False? Networking, storage, compute, and databases are examples of service categories that AWS offers.",
+			"options": ["True", "False"],
 			"correctAnswer": 0
 		},
 		{
-			"id": 16,
-			"question": "What will happen if a 'Collider' is set to 'isTrigger = true'?",
+			"id": 14,
+			"question": "Which of the following are geographic areas that host two or more Availability Zones? (Select the best answer.)",
 			"options": [
-				"It will behave like a normal collider",
-				"It will stop objects from passing through it",
-				"It will trigger events like 'OnTriggerEnter()' without physical responses",
-				"It will not interact with other colliders in terms of physics"
+				"AWS Origins",
+				"AWS Regions",
+				"Compute zones",
+				"Edge locations"
+			],
+			"correctAnswer": 1
+		},
+		{
+			"id": 15,
+			"question": "_____ means the infrastructure has built-in component redundancy and _____ means that resources dynamically adjust to increases or decreases in capacity requirements.",
+			"options": [
+				"No human intervention, fault tolerant",
+				"Elastic and scalable, no human intervention",
+				"Fault tolerant, elastic and scalable",
+				"Fault tolerant, no human intervention",
+				"Elastic and scalable, fault tolerant"
 			],
 			"correctAnswer": 2
 		},
 		{
+			"id": 16,
+			"question": "True or False? Availability Zones within a Region are connected through low-latency links.",
+			"options": ["True", "False"],
+			"correctAnswer": 0
+		},
+		{
 			"id": 17,
-			"question": "Which Unity method is best for accessing the current active scene?",
+			"question": "Which of these statements about Availability Zones is not true? (Select the best answer.)",
 			"options": [
-				"Scene.GetScene()",
-				"SceneManager.GetActiveScene()",
-				"UnitySceneManager.ActiveScene()",
-				"Application.GetScene()",
-				"SceneManager.GetScene()"
+				"Availability Zones are designed for fault isolation.",
+				"Availability Zones are made up of one or more data centers.",
+				"A data center can be used for more than one Availability Zone.",
+				"Availability Zones are connected to each other using high-speed private links."
 			],
-			"correctAnswer": 1
+			"correctAnswer": 2
 		},
 		{
 			"id": 18,
-			"question": "When is LateUpdate() called in the frame lifecycle?",
+			"question": "What is true about Regions? (Choose two.)",
 			"options": [
-				"After OnDisable()",
-				"After all Update() calls",
-				"Before rendering UI",
-				"Right after Awake()",
-				"Before FixedUpdate()"
+				"Each Region is located in a separate geographic area.",
+				"They are the physical locations of your customers.",
+				"All Regions are located in one specific geographic area.",
+				"A Region is a physical location that has multiple Availability Zones."
 			],
-			"correctAnswer": 1
+			"correctAnswers": [0, 3]
 		},
 		{
 			"id": 19,
-			"question": "The default _____ primitive is a flat square with edges ten units long, divided into 200 triangles, and is oriented in the xz plane of the local coordinate space. The square is textured so that the complete image appears once within the square. It is useful for most flat surfaces, such as floors and walls.",
-			"options": ["Cube", "Capsule", "Plane", "Cylinder", "Sphere"],
+			"question": "AWS highly recommends provisioning your compute resources across ______ Availability Zones. (Select the best answer.)",
+			"options": ["all", "no", "multiple", "single"],
 			"correctAnswer": 2
 		},
 		{
 			"id": 20,
-			"question": "What is the purpose of the Animator component in Unity?",
-			"options": [
-				"To add collision detection",
-				"To manipulate game objects in real time",
-				"To manage sound effects",
-				"To control 3D models",
-				"To control animations and transitions"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 21,
-			"question": "Which Unity component is used to apply physics-based movement to an object?",
-			"options": [
-				"Collider",
-				"Rigidbody",
-				"Light",
-				"MeshRenderer",
-				"Transform"
-			],
+			"question": "True or False? Edge locations are only located in the same general area as Regions.",
+			"options": ["True", "False"],
 			"correctAnswer": 1
 		},
 		{
-			"id": 22,
-			"question": "Which method is used to change the camera's Field of View in Unity via script?",
+			"id": 21,
+			"question": "In the shared responsibility model, AWS is responsible for providing what? (Select the best answer.)",
 			"options": [
-				"camera.viewAngle",
-				"camera.fov",
-				"camera.setFOV()",
-				"camera.fieldOfView",
-				"camera.zoom"
+				"Security of the cloud",
+				"Security to the cloud",
+				"Security for the cloud",
+				"Security in the cloud"
 			],
-			"correctAnswer": 3
+			"correctAnswer": 0
+		},
+		{
+			"id": 22,
+			"question": "In the shared responsibility model, which of the following are examples of `security in the cloud`? (Choose two.)",
+			"options": [
+				"Compliance with compute security standards and regulations",
+				"Physical security of the facilities in which the services operate",
+				"Security group configurations",
+				"Encryption of data at rest and data in transit",
+				"Protecting the global infrastructure"
+			],
+			"correctAnswers": [2, 3]
 		},
 		{
 			"id": 23,
-			"question": "What happens when the script is attached to a GameObject with a Collider component?",
+			"question": "Which of the following is the responsibility of AWS under the AWS shared responsibility model? (Select the best answer.)",
 			"options": [
-				"Nothing will happen unless the GameObject has a Rigidbody component",
-				"The script will only work if the camera is set to Orthographic mode",
-				"The GameObject will rotate when clicked",
-				"The message 'Object clicked!' will be logged in the Console when the GameObject is clicked",
-				"The GameObject will move when clicked"
+				"Configuring third-party applications",
+				"Maintaining physical hardware",
+				"Security application access and data",
+				"Managing custom Amazon Machine Images (AMIs)"
 			],
 			"correctAnswer": 1
 		},
 		{
 			"id": 24,
-			"question": "What is the function of Flythrough Mode in the Scene View?",
+			"question": "When creating an AWS Identity and Access Management (IAM) policy, what are the two types of access that can be granted to a user? (Choose two.)",
 			"options": [
-				"Recording gameplay",
-				"Zooming to selected GameObject",
-				"Playtesting the game",
-				"Running scripts",
-				"Navigating the scene freely like in 3D software"
+				"Institutional access",
+				"Authorized access",
+				"Programmatic access",
+				"AWS Management Console access",
+				"Administrative root access"
 			],
-			"correctAnswer": 4
+			"correctAnswers": [2, 3]
 		},
 		{
 			"id": 25,
-			"question": "This function will be called by Unity before gameplay begins and is an ideal place to do any initialization",
-			"options": [
-				"MonoBehaviour",
-				"Start function",
-				"Void",
-				"OnDisable",
-				"Update function"
-			],
-			"correctAnswer": 1
+			"question": "True or False? AWS Organizations enables you to consolidate multiple AWS accounts so that you centrally manage them.",
+			"options": ["True", "False"],
+			"correctAnswer": 0
 		},
 		{
 			"id": 26,
-			"question": "How do you make a Rigidbody rotate based on physics in Unity?",
+			"question": "Which of the following are best practices to secure your account using AWS Identity and Access Management (IAM)? (Choose two.)",
 			"options": [
-				"Rigidbody.Rotate(Vector3 rotation);",
-				"Rigidbody.SetRotation(Vector3 torque);",
-				"Rigidbody.AddTorque(Vector3 torque);",
-				"Rigidbody.ApplyRotation(Vector3 rotation);",
-				"Rigidbody.Torque(Vector3 torque);"
+				"Provide users with default administrative privileges.",
+				"Leave unused and unnecessary users and credentials in place.",
+				"Manage access to AWS resources.",
+				"Avoid using IAM groups to grant the same access permissions to multiple users.",
+				"Define fine-grained access rights."
 			],
-			"correctAnswer": 2
+			"correctAnswers": [2, 4]
 		},
 		{
 			"id": 27,
-			"question": "Which Unity tool helps with object placement, rotation, and scaling?",
+			"question": "Which of the following should be done by the AWS account root user? (Select the best answer.)",
 			"options": [
-				"Console Commands",
-				"Asset Importer",
-				"Toolbar Tools",
-				"Preferences Menu",
-				"Hierarchy Tools"
+				"Secure access for applications",
+				"Integrate with other AWS services",
+				"Change granular permissions",
+				"Change the AWS support plan"
 			],
-			"correctAnswer": 2
+			"correctAnswer": 3
 		},
 		{
 			"id": 28,
-			"question": "Which component is automatically attached to every new GameObject in Unity?",
+			"question": "After initial login, what does AWS recommend as the best practice for the AWS account root user? (Select the best answer.)",
 			"options": [
-				"Transform",
-				"Mesh Renderer",
-				"Toolbar",
-				"Collider",
-				"Rigidbody"
+				"Delete the AWS account root user",
+				"Revoke all permissions on the AWS account root user",
+				"Restrict permission on the AWS account root user",
+				"Delete the access keys of the AWS account root user"
 			],
-			"correctAnswer": 0
+			"correctAnswer": 3
 		},
 		{
 			"id": 29,
-			"question": "What does increasing the near clipping plane of a Unity camera do?",
+			"question": "How would a system administrator add an additional layer of login security to a user's AWS Management Console? (Select the best answer.)",
 			"options": [
-				"Improves shadow resolution",
-				"Clips more objects close to the camera",
-				"Increases render distance",
-				"Narrows the field of view",
-				"Adds motion blur"
+				"Use Amazon Cloud Directory",
+				"Audit AWS Identity and Access Management (IAM) roles",
+				"Enable multi-factor authentication",
+				"Enable AWS CloudTrail"
 			],
-			"correctAnswer": 1
+			"correctAnswer": 2
 		},
 		{
 			"id": 30,
-			"question": "Which Unity component is required to detect collisions with other GameObjects?",
-			"options": ["Renderer", "Light", "Collider", "Camera", "Rigidbody"],
-			"correctAnswer": 2
+			"question": "True or False? AWS Key Management Service (AWS KMS) enables you to assess, audit, and evaluate the configurations of your AWS resources.",
+			"options": ["True", "False"],
+			"correctAnswer": 1
 		},
 		{
 			"id": 31,
-			"question": "What happens if a MonoBehaviour script disables itself inside Awake()?",
-			"options": [
-				"Update() still runs",
-				"Start() is not called",
-				"Start() is still called",
-				"OnEnable() is skipped",
-				"Awake() is cancelled"
-			],
-			"correctAnswer": 1
+			"question": "With Amazon Virtual Private Cloud (Amazon VPC), what is the smallest size subnet you can have in a VPC? (Select the best answer.)",
+			"options": ["/26", "/30", "/28", "/24"],
+			"correctAnswer": 2
 		},
 		{
 			"id": 32,
-			"question": "Which method is used to add a component to a GameObject in Unity?",
-			"options": [
-				"AddNewComponent()",
-				"gameObject.AddNewComponent<T>()",
-				"gameObject.AddComponent<T>()",
-				"AddComponent<T>()",
-				"AddScript()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 33,
-			"question": "In Unity, what is the function of the Rigidbody component?",
-			"options": [
-				"It allows the object to react to physical forces like gravity",
-				"It renders objects in the scene",
-				"It controls the camera's movement",
-				"It controls the object's animations",
-				"It adds UI elements to the game"
-			],
+			"question": "With Amazon Virtual Private Cloud (Amazon VPC), what is the maximum size IP address range you can have in a VPC? (Select the best answer.)",
+			"options": ["/16", "/24", "/30", "/28"],
 			"correctAnswer": 0
-		},
-		{
-			"id": 34,
-			"question": "They are used to define the shape of an object for the purpose of physical collisions. It does not necessarily need to be the same shape of the game object's mesh",
-			"options": [
-				"Boxes",
-				"Joints",
-				"Colliders",
-				"Rigidbodies",
-				"Scripts"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 35,
-			"question": "Which Unity Physics property controls an object's ability to bounce when colliding?",
-			"options": [
-				"Elasticity",
-				"Flexibility",
-				"Friction",
-				"Hardness",
-				"Bounciness"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 36,
-			"question": "How do you navigate in Flythrough Mode within the Scene View?",
-			"options": [
-				"Use arrow keys in Game View",
-				"Double-click the asset",
-				"Scroll wheel only",
-				"Use WASD keys while right-clicking",
-				"Right-click and drag"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 37,
-			"question": "How do you assign a texture to a material in C#?",
-			"options": [
-				"material.setMainTexture(tex);",
-				"material.texture = tex;",
-				"material.diffuse = tex;",
-				"material.SetTexture(\"_MainTex\", tex);",
-				"material.applyTexture(tex);"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 38,
-			"question": "Which Unity function is used to stop a Rigidbody's motion immediately?",
-			"options": [
-				"Rigidbody.velocity = Vector3.zero;",
-				"Rigidbody.Stop();",
-				"Rigidbody.Pause();",
-				"Rigidbody.AddForce(Vector3.zero);",
-				"Rigidbody.SetVelocity(Vector3.zero);"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 39,
-			"question": "What happens in the Game View?",
-			"options": [
-				"Real-time preview of the game during Play mode",
-				"Scene editing",
-				"UI layout",
-				"Asset import",
-				"Script compilation"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 40,
-			"question": "Which Unity UI method is invoked when using EventSystem for pointer detection?",
-			"options": [
-				"IPointerClickHandler.OnPointerClick()",
-				"OnMouseOver()",
-				"Update()",
-				"OnPointerDown()",
-				"OnGUI()"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 41,
-			"question": "Which method is NOT automatically called by Unity during runtime?",
-			"options": [
-				"Update()",
-				"OnEnable()",
-				"Awake()",
-				"CustomMethod()",
-				"Start()"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 42,
-			"question": "What type of light in Unity is best for simulating sunlight?",
-			"options": [
-				"Area Light",
-				"Directional Light",
-				"Ambient Light",
-				"Point Light",
-				"Spot Light"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 43,
-			"question": "Animator transitions rely on what to trigger changes?",
-			"options": [
-				"Audio listeners",
-				"Sprites",
-				"Parameters",
-				"Materials",
-				"Rigidbodies"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 44,
-			"question": "Which UI element would best be used for choosing a value along a continuous range?",
-			"options": ["Button", "Toggle", "Panel", "Slider", "Dropdown"],
-			"correctAnswer": 3
-		},
-		{
-			"id": 45,
-			"question": "What is the default mass of a Rigidbody in Unity?",
-			"options": ["0.5", "2", "3", "0", "1"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 46,
-			"question": "What will happen if you add multiple 'Rigidbody' components to the same GameObject?",
-			"options": [
-				"Both 'Rigidbody' components will affect the GameObject independently",
-				"Unity will throw an error",
-				"The GameObject will stop moving",
-				"Only one 'Rigidbody' component will be active",
-				"The GameObject will be destroyed"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 47,
-			"question": "The _______ displays your library of assets that are available to use in your project. When you import assets into your project, they appear here",
-			"options": [
-				"Toolbar",
-				"Project Window",
-				"Hierarchy Window",
-				"Inspector Window",
-				"Scene View"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 48,
-			"question": "Which type of Unity asset is best suited for defining and reusing settings like volume, difficulty, or control schemes?",
-			"options": [
-				"Shader Graph",
-				"Prefab",
-				"Animator Controller",
-				"ScriptableObject",
-				"Assembly Definition"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 49,
-			"question": "Which method is used to detect physics collisions between two Rigidbody objects?",
-			"options": [
-				"OnControllerColliderHit()",
-				"OnMouseDown()",
-				"OnTriggerEnter()",
-				"OnJointBreak()",
-				"OnCollisionEnter()"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 50,
-			"question": "What is the result of adding a 'Collider' component to a GameObject with a 'Rigidbody' attached and setting the 'isTrigger' property of the collider to true?",
-			"options": [
-				"The object will ignore physics calculations but still trigger events",
-				"The GameObject will be destroyed",
-				"The GameObject will stop interacting with other objects",
-				"The GameObject will become invisible",
-				"The object will be affected by gravity"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 51,
-			"question": "Which Render Mode requires a Camera to display UI?",
-			"options": [
-				"Legacy GUI",
-				"World Space (optional)",
-				"Screen Space - Overlay",
-				"Canvas Scaler",
-				"Screen Space - Camera"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 52,
-			"question": "Which Unity light type emits light in all directions from a single point?",
-			"options": ["Directional", "Hemisphere", "Area", "Spot", "Point"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 53,
-			"question": "Which Unity component is used to apply physics-based movement to an object?",
-			"options": [
-				"MeshRenderer",
-				"Transform",
-				"Collider",
-				"Light",
-				"Rigidbody"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 54,
-			"question": "Which statement about Unity and WebXR is TRUE?",
-			"options": [
-				"Unity exports to WebXR by default",
-				"Unity cannot build WebGL projects",
-				"Unity officially supports WebXR export",
-				"Third-party tools are used to support WebXR in Unity",
-				"WebXR is only available for VR"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 55,
-			"question": "What happens when an AudioSource has its PlayOnAwake property set to true?",
-			"options": [
-				"It plays only when triggered by animation",
-				"It waits for a user input",
-				"It plays only on collision",
-				"It plays after a delay",
-				"It plays automatically when the scene starts"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 56,
-			"question": "Which method is best for initializing references between scripts?",
-			"options": [
-				"LateUpdate()",
-				"Update()",
-				"Awake()",
-				"FixedUpdate()",
-				"OnDestroy()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 57,
-			"question": "How would you conditionally enable AR features using a ternary operator in C#?",
-			"options": [
-				"arSession.enabled = (isARSupported) ? true : false;",
-				"if (isARSupported) arSession.enable(); else disable();",
-				"arSession.enabled = true ?? false;",
-				"arMode = isARSupported : true ? false;",
-				"arSession = isARSupported;"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 58,
-			"question": "What is the primary purpose of an Animator Controller in Unity?",
-			"options": [
-				"To manage animation states and transitions",
-				"To import 3D models",
-				"To manage UI transitions",
-				"To edit prefabs directly",
-				"To control physics behaviors"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 59,
-			"question": "Which component lets you respond to a button click in the Inspector?",
-			"options": [
-				"Button (Script)",
-				"UnityEvent",
-				"OnClick() method",
-				"Event Trigger",
-				"ButtonHandler"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 60,
-			"question": "Which XR support package provides an interface for accessing hand tracking data?",
-			"options": [
-				"OpenXR",
-				"XR Hands",
-				"XR Interaction Toolkit",
-				"AR Foundation",
-				"XR Plug-in Management"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 61,
-			"question": "What happens if you call 'gameObject.AddComponent<T>()' on a GameObject that already has the same component?",
-			"options": [
-				"The component is added twice to the GameObject",
-				"Only the first component is used, and the new one is ignored",
-				"Unity will automatically merge the components",
-				"The existing component is replaced by the new one",
-				"Unity throws an error"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 62,
-			"question": "How can you toggle between AR and VR modes using a ternary operator in C#?",
-			"options": [
-				"mode = (VR) ? true : false;",
-				"currentMode == (isVR) ? VR : AR;",
-				"currentMode = isVR ? \"VR\" : \"AR\";",
-				"switchMode(isVR ? VRMode : ARMode);",
-				"if (isVR) return \"VR\" : \"AR\";"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 63,
-			"question": "Which of these audio formats is lossy and supports compression?",
-			"options": ["PCM", "MP3", "AIFF", "FLAC", "WAV"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 64,
-			"question": "What component is required for 3D sound perception in a Unity scene?",
-			"options": [
-				"Audio Listener",
-				"Audio Source only",
-				"Audio Clip",
-				"Audio Mixer",
-				"Audio Importer"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 65,
-			"question": "Which Unity lighting mode bakes only indirect lighting and allows dynamic lights to cast real-time shadows?",
-			"options": ["Baked", "Realtime", "Static", "Dynamic", "Mixed"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 66,
-			"question": "Which Unity feature allows advanced mixing, ducking, and snapshots?",
-			"options": [
-				"Audio Source",
-				"Audio Group",
-				"Audio Mixer",
-				"Audio Filter",
-				"Audio Listener"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 67,
-			"question": "Which Unity method is recommended for subscribing to events?",
-			"options": [
-				"OnEnable()",
-				"Awake()",
-				"LateUpdate()",
-				"Update()",
-				"Start()"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 68,
-			"question": "What is DOTween primarily used for in Unity?",
-			"options": [
-				"Mesh baking",
-				"Scene loading",
-				"Terrain deformation",
-				"Network handling",
-				"Smooth value animations"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 69,
-			"question": "Ambisonic audio sources are useful for what types of applications?",
-			"options": [
-				"360-degree videos and XR applications",
-				"UI sounds",
-				"Traditional 3D games",
-				"Background music",
-				"2D games"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 70,
-			"question": "To detect a hover event on a button, which component should be used?",
-			"options": [
-				"Button",
-				"Event Trigger",
-				"UI Manager",
-				"Tooltip",
-				"Collider"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 71,
-			"question": "What is the result of setting the 'useGravity' property of a Rigidbody to false?",
-			"options": [
-				"The object will have infinite velocity",
-				"The object will fall slower",
-				"The object will float on the ground",
-				"The object will no longer fall",
-				"The object will move upwards"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 72,
-			"question": "Which Unity component is required to detect collisions with other GameObjects?",
-			"options": ["Collider", "Camera", "Rigidbody", "Light", "Renderer"],
-			"correctAnswer": 0
-		},
-		{
-			"id": 73,
-			"question": "Which Unity method is called once when a script instance is being loaded?",
-			"options": [
-				"OnEnable()",
-				"Awake()",
-				"Update()",
-				"FixedUpdate()",
-				"Start()"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 74,
-			"question": "What is the role of a 'Rigidbody' component in Unity?",
-			"options": [
-				"To store information about the position of an object",
-				"To display the object on screen",
-				"To animate the object",
-				"To handle the physics simulation and apply forces to an object",
-				"To handle input from the user"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 75,
-			"question": "Which Unity method is used to determine if a 'Collider' component is currently in contact with another 'Collider'?",
-			"options": [
-				"OnTriggerStay()",
-				"OnCollisionStay()",
-				"OnTriggerEnter()",
-				"OnCollisionEnter()",
-				"IsColliderContact()"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 76,
-			"question": "Which Unity feature allows you to modify a game object's properties in real time during runtime?",
-			"options": [
-				"Prefabs",
-				"Debug Mode",
-				"Scene View",
-				"Inspector Window",
-				"Animator"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 77,
-			"question": "Which Unity window shows a preview of the game while running?",
-			"options": ["Scene", "Hierarchy", "Game", "Inspector", "Project"],
-			"correctAnswer": 2
-		},
-		{
-			"id": 78,
-			"question": "Which lighting setting in Unity is responsible for controlling how light bounces around a scene?",
-			"options": [
-				"Intensity Multiplier",
-				"Shadow Type",
-				"Indirect Multiplier",
-				"Global Illumination",
-				"Lightmap Resolution"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 79,
-			"question": "Which of the following guarantees earliest initialization of script execution?",
-			"options": [
-				"Start()",
-				"Static constructor",
-				"OnEnable()",
-				"Update()",
-				"Awake()"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 80,
-			"question": "The default _______ primitive is a flat square with edges ten units long, divided into 200 triangles, and is oriented in the xz plane of the local coordinate space. The square is textured so that the complete image appears once within the square. It is useful for most flat surfaces, such as floors and walls.",
-			"options": ["Capsule", "Cylinder", "Cube", "Sphere", "Plane"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 81,
-			"question": "Why can't Area Lights be used in real-time lighting in Unity?",
-			"options": [
-				"They require GPU instancing",
-				"Unity doesn't support them",
-				"Area Lights are baked only",
-				"They work only in URP",
-				"They are deprecated"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 82,
-			"question": "What happens when the script is attached to a GameObject with a Collider component?",
-			"options": [
-				"The message 'Object clicked!' will be logged in the Console when the GameObject is clicked",
-				"The script will only work if the camera is set to Orthographic mode",
-				"Nothing will happen unless the GameObject has a Rigidbody component",
-				"The GameObject will move when clicked",
-				"The GameObject will rotate when clicked"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 83,
-			"question": "Which method can be used to get a component attached to a GameObject?",
-			"options": [
-				"gameObject.GetComponent()",
-				"gameObject.GetComponentInParent()",
-				"All of the above",
-				"gameObject.GetComponentInChildren()",
-				"gameObject.GetComponent<T>()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 84,
-			"question": "What must be selected to view and change the properties of a GameObject in Unity?",
-			"options": [
-				"Project folder",
-				"Console window",
-				"Animator controller",
-				"GameObject in Hierarchy",
-				"Build settings"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 85,
-			"question": "What's the main advantage of baked lighting?",
-			"options": [
-				"High performance with static objects",
-				"Fast scene loading",
-				"Dynamic color changing",
-				"Simulated light flickering",
-				"Real-time shadows"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 86,
-			"question": "Which component in Unity is used for collision detection but does not apply any physics properties like mass or velocity?",
-			"options": [
-				"MeshCollider",
-				"CapsuleCollider",
-				"Collider",
-				"TriggerCollider",
-				"BoxCollider"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 87,
-			"question": "Animator Controllers require what component to function?",
-			"options": [
-				"Sprite Renderer",
-				"Rigidbody",
-				"Animator",
-				"Collider",
-				"Camera"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 88,
-			"question": "What is the purpose of the Player Settings window in Unity?",
-			"options": [
-				"Set build and runtime options",
-				"Adjust input controls",
-				"Configure game scenes",
-				"Edit scripts",
-				"Manage asset imports"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 89,
-			"question": "Which of the following is NOT required in a basic VR Unity scene?",
-			"options": [
-				"Controller GameObjects",
-				"Main Camera",
-				"XR Origin",
-				"AR Session",
-				"Tracking Data"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 90,
-			"question": "Which Unity window allows you to configure build settings before publishing?",
-			"options": [
-				"Animator",
-				"Project Settings",
-				"Console",
-				"Build Settings",
-				"Scene View"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 91,
-			"question": "Which method is triggered before camera starts rendering the scene?",
-			"options": [
-				"OnPostRender()",
-				"OnStartRender()",
-				"OnPreRender()",
-				"Render()",
-				"OnBeginRender()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 92,
-			"question": "What is the purpose of the Debug.Log statement in the script?",
-			"options": [
-				"To display a warning message in the Unity Inspector",
-				"To stop the game execution when triggered",
-				"To output a log message in the Unity Console",
-				"To play the game",
-				"To print an error message in the Unity Console"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 93,
-			"question": "What does the Game Development Process usually begin with?",
-			"options": [
-				"Building the final executable",
-				"Concept and design planning",
-				"Adding post-processing effects",
-				"Physics tuning",
-				"Creating complex shaders"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 94,
-			"question": "Which method should be used to detect key press once, not held?",
-			"options": [
-				"Input.GetAxis()",
-				"Input.anyKey",
-				"Input.GetKeyDown()",
-				"Input.GetKeyUp()",
-				"Input.GetKey()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 95,
-			"question": "Types of variables are visible to other scripts and even the Unity editor. This makes it easy for you to change the values of your variables within Unity",
-			"options": ["private", "int", "float", "public", "MonoBehaviour"],
-			"correctAnswer": 3
-		},
-		{
-			"id": 96,
-			"question": "The default _______ primitive is a square with edges one unit long, divided into two triangles, and is oriented in the xy plane of the local coordinate space. You can use it as a display screen for an image or movie. You can also use it to implement simple GUI and information displays, particles, sprites, and imposter images as substitutes for solid objects views at a distance",
-			"options": ["Capsule", "Cylinder", "Cube", "Sphere", "Quad"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 97,
-			"question": "This function will be called by Unity before gameplay begins and is an ideal place to do any initialization",
-			"options": [
-				"Void",
-				"OnDisable",
-				"Start function",
-				"Update function",
-				"MonoBehaviour"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 98,
-			"question": "How can you prevent a GameObject from receiving physics forces while keeping it visible in the scene?",
-			"options": [
-				"Disable the GameObject",
-				"Set the 'Collider.isTrigger' property to true",
-				"Remove the 'Rigidbody' component",
-				"Remove the 'Collider' component",
-				"Set 'Rigidbody.isKinematic' to true"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 99,
-			"question": "Which statement switches camera depth based on priority?",
-			"options": [
-				"camera.sortOrder = cam1.depth;",
-				"camera.depth = cam1.enabled ? 1 : -1;",
-				"camera.depth = cam1.priority > 1 ? 1 : -1;",
-				"camera.depth = cam1.depth > 0 ? 10 : -10;",
-				"camera.priority = cam1.depth > 0 ? 2 : 0;"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 100,
-			"question": "Which Unity method is used to detect a collision between two GameObjects with colliders?",
-			"options": [
-				"OnCollisionExit()",
-				"OnTriggerStay()",
-				"OnCollisionEnter()",
-				"OnCollisionStay()",
-				"OnTriggerEnter()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 101,
-			"question": "What is the main difference between Start() and Awake()?",
-			"options": [
-				"Awake depends on script execution order",
-				"Awake runs only once, Start runs every frame",
-				"Start is only called if the script is enabled",
-				"Start runs in Edit mode, Awake does not",
-				"Awake is called after Start"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 102,
-			"question": "What will happen if you place heavy logic inside Update()?",
-			"options": [
-				"It runs only on awake",
-				"It will execute once and be cached",
-				"It may cause frame drops or lags",
-				"Unity will optimize it automatically",
-				"It will not affect performance"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 103,
-			"question": "Which Render Mode displays UI elements directly on the screen without a camera?",
-			"options": [
-				"World Space",
-				"Orthographic Space",
-				"Perspective View",
-				"Screen Space - Camera",
-				"Screen Space - Overlay"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 104,
-			"question": "Which of these is NOT a valid Unity audio import setting?",
-			"options": [
-				"Sample Rate Setting",
-				"Compression Format",
-				"Load Type",
-				"Force To Mono",
-				"Audio Fidelity Mode"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 105,
-			"question": "What is the advantage of building an app bundle (.aab) instead of APK for Android?",
-			"options": [
-				"Supports instant apps only",
-				"Requires no signing",
-				"Allows Google Play to optimize APK per device",
-				"Can only be tested on emulators",
-				"Larger file size"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 106,
-			"question": "What Unity plug-in integrates XR for multiple platforms, including OpenXR support?",
-			"options": [
-				"URP XR",
-				"OpenXR Plugin",
-				"Vuforia Engine",
-				"UnityEngine.XR.Legacy",
-				"WebXR Exporter"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 107,
-			"question": "How would you conditionally enable AR features using a ternary operator in C#?",
-			"options": [
-				"arSession.enabled = (isARSupported) ? true : false;",
-				"arMode = isARSupported : true ? false;",
-				"arSession = isARSupported;",
-				"if (isARSupported) arSession.enable(); else disable();",
-				"arSession.enabled = true ?? false;"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 108,
-			"question": "What does XR stand for in Unity development?",
-			"options": [
-				"Extra Rendering",
-				"External Rendering",
-				"Experimental Reality",
-				"Extended Reality",
-				"Extreme Runtime"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 109,
-			"question": "Which tool can you use to simulate AR experience in Unity Editor without a device?",
-			"options": [
-				"Device Camera Streamer",
-				"Play Mode Simulator",
-				"XR Device Emulator",
-				"AR Emulation Preview",
-				"XR Toolkit Recorder"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 110,
-			"question": "Which of Unity's animation systems is recommended for most situations?",
-			"options": [
-				"Simple Animation System",
-				"Mecanim Animation System",
-				"Legacy Animation System",
-				"Curve Animation System",
-				"Direct Animation System"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 111,
-			"question": "What does Rigidbody.MovePosition() do?",
-			"options": [
-				"Adds instant velocity",
-				"Plays an animation",
-				"Edits transform directly",
-				"Teleports the object",
-				"Interpolates to a new position"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 112,
-			"question": "How would you assign text color based on a condition using a ternary operator?",
-			"options": [
-				"text.color = (isError) ? Color.red : Color.white;",
-				"textColor = isError ?? Color.red : Color.white;",
-				"text.color = isError = Color.red : Color.white;",
-				"text = (isError) ? Color.red : Color.white;",
-				"text.color = Color.red ? true : Color.white;"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 113,
-			"question": "What is the purpose of the 'Transform' component in Unity?",
-			"options": [
-				"To manage object hierarchies",
-				"To control the position, rotation, and scale of the object",
-				"To handle the physics calculations",
-				"To animate the object",
-				"To handle rendering of the object"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 114,
-			"question": "Which method is used for physics-related calculations?",
-			"options": [
-				"FixedUpdate()",
-				"Update()",
-				"Awake()",
-				"OnEnable()",
-				"LateUpdate()"
-			],
-			"correctAnswer": 0
-		},
-
-		{
-			"id": 115,
-			"question": "Determine the correct statement about prefab variants:",
-			"options": [
-				"A variant is a child prefab with modifications that still inherits from the original",
-				"Changes in a variant override the base prefab permanently",
-				"Variants can't use nested prefabs",
-				"You can't override transforms in prefab variants",
-				"Variants must reside in the same folder as the original prefab"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 116,
-			"question": "Which Unity lighting mode bakes only indirect lighting and allows dynamic lights to cast real-time shadows?",
-			"options": ["Dynamic", "Baked", "Mixed", "Static", "Realtime"],
-			"correctAnswer": 2
-		},
-		{
-			"id": 117,
-			"question": "Which of these Unity systems is used to create and manage game animations?",
-			"options": [
-				"NavMesh",
-				"Audio Mixer",
-				"Lightmap System",
-				"Physics Engine",
-				"Animator Controller"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 118,
-			"question": "Which Unity method is used to destroy a game object during runtime?",
-			"options": ["Remove", "Destroy", "Kill", "Erase", "Delete"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 119,
-			"question": "How can you prevent a GameObject from receiving physics forces while keeping it visible in the scene?",
-			"options": [
-				"Disable the GameObject",
-				"Set the 'Collider.isTrigger' property to true",
-				"Set 'Rigidbody.isKinematic' to true",
-				"Remove the 'Rigidbody' component",
-				"Remove the 'Collider' component"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 120,
-			"question": "Which Unity component can be used to detect triggers or collisions while simulating physics in a 2D game?",
-			"options": [
-				"TriggerCollider2D",
-				"Rigidbody2D",
-				"Collider2D",
-				"Physics2D",
-				"MeshCollider2D"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 121,
-			"question": "How do you remove a component from a GameObject?",
-			"options": [
-				"Destroy(gameObject.GetComponent<T>())",
-				"gameObject.DeleteComponent<T>()",
-				"gameObject.RemoveComponent()",
-				"gameObject.DestroyComponent()",
-				"gameObject.RemoveComponent<T>()"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 122,
-			"question": "What is a valid use case for LateUpdate() instead of Update()?",
-			"options": [
-				"Executing UI rendering logic before physics",
-				"Initializing static variables",
-				"Accessing Input system",
-				"Performing calculations with Time.deltaTime",
-				"Repositioning camera after all movement"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 123,
-			"question": "What property of a Rigidbody allows an object to slide along a surface without rotating?",
-			"options": [
-				"LinearVelocity",
-				"Constraints",
-				"Friction",
-				"RigidbodyType",
-				"KinematicState"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 124,
-			"question": "What is the effect of setting a Rigidbody's drag to 0?",
-			"options": [
-				"The object will accelerate infinitely",
-				"The object will behave like a particle",
-				"The object will move at constant speed",
-				"The object will float",
-				"The object will stop instantly"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 125,
-			"question": "Which Unity interface panel allows you to switch between tools like Move, Rotate, and Scale?",
-			"options": [
-				"Project",
-				"Toolbar",
-				"Asset Store",
-				"Hierarchy",
-				"Inspector"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 126,
-			"question": "What is the result of adding a 'Collider' component to a GameObject with a 'Rigidbody' attached and setting the 'isTrigger' property of the collider to true?",
-			"options": [
-				"The object will be affected by gravity",
-				"The GameObject will become invisible",
-				"The GameObject will stop interacting with other objects",
-				"The GameObject will be destroyed",
-				"The object will ignore physics calculations but still trigger events"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 127,
-			"question": "Which Unity platform build target is used for publishing games on Android devices?",
-			"options": ["Linux", "Android", "Windows", "MacOS", "iOS"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 128,
-			"question": "Which Unity feature allows advanced mixing, ducking, and snapshots?",
-			"options": [
-				"Audio Listener",
-				"Audio Mixer",
-				"Audio Group",
-				"Audio Filter",
-				"Audio Source"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 129,
-			"question": "Which camera projection in Unity maintains object size regardless of distance?",
-			"options": [
-				"Orthographic",
-				"Depth",
-				"RealWorld",
-				"Cinemachine",
-				"Perspective"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 130,
-			"question": "Which Unity light type emits light in all directions from a single point?",
-			"options": ["Directional", "Hemisphere", "Area", "Spot", "Point"],
-			"correctAnswer": 4
-		},
-		{
-			"id": 131,
-			"question": "What happens when an AudioSource has its PlayOnAwake property set to true?",
-			"options": [
-				"It waits for a user input",
-				"It plays after a delay",
-				"It plays only when triggered by animation",
-				"It plays only on collision",
-				"It plays automatically when the scene starts"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 132,
-			"question": "Which Unity component displays the camera feed behind AR content?",
-			"options": [
-				"AR Live View",
-				"Depth Renderer",
-				"AR Camera Background",
-				"XR Video Player",
-				"AR Overlay"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 133,
-			"question": "Which function can be used to detect if two colliders are touching?",
-			"options": [
-				"OnCollisionExit()",
-				"OnContactStay()",
-				"OnCollisionStay()",
-				"OnTriggerExit()",
-				"OnTriggerStay()"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 134,
-			"question": "Timeline is mainly used to orchestrate which Unity feature?",
-			"options": [
-				"Physics collisions",
-				"Debugging",
-				"Script execution order",
-				"Networking",
-				"Cinematic sequences"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 135,
-			"question": "What does setting the 'isKinematic' property of a Rigidbody to true do?",
-			"options": [
-				"The Rigidbody will be invisible.",
-				"The Rigidbody will move normally.",
-				"The Rigidbody will not respond to physics forces.",
-				"The Rigidbody will interact with all physics objects.",
-				"The Rigidbody will rotate automatically."
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 136,
-			"question": "What does the Timeline clip length affect?",
-			"options": [
-				"Physics simulation",
-				"Script priority",
-				"Light baking",
-				"UI rendering",
-				"Animation duration"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 137,
-			"question": "What Unity component renders the view of the scene to a texture?",
-			"options": [
-				"Texture2D",
-				"Camera Target",
-				"Render Texture",
-				"Light Probe",
-				"Reflection Probe"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 138,
-			"question": "How can you mute an AudioSource based on a condition using a ternary operator?",
-			"options": [
-				"audioSource.SetMute(isQuiet);",
-				"audioSource.mute = (isQuiet) ? false : true;",
-				"audioSource.mute = isQuiet ? true : false;",
-				"audioSource.enabled = (true) ? isQuiet : false;",
-				"audioSource.volume = (isQuiet) ? 1.0f : 0.0f;"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 139,
-			"question": "Which is TRUE about World Space Render Mode in Unity?",
-			"options": [
-				"UI does not require a Canvas",
-				"UI ignores lighting",
-				"UI automatically fits the screen",
-				"UI behaves like 3D objects in the scene",
-				"UI is rendered in front of all 3D elements"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 140,
-			"question": "Which type of Collider should be used for a character in Unity to allow for accurate collision detection?",
-			"options": [
-				"CapsuleCollider",
-				"MeshCollider",
-				"BoxCollider",
-				"SphereCollider",
-				"WheelCollider"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 141,
-			"question": "Why is the Scene View important during development?",
-			"options": [
-				"It allows spatial arrangement of GameObjects",
-				"It displays console logs",
-				"It plays audio",
-				"It creates build folders",
-				"It stores scripts"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 142,
-			"question": "To change scenes using scripting, you use the LoadLevel() method, which is part of what object?",
-			"options": [
-				"SceneManager",
-				"Application",
-				"GameObject",
-				"LevelManager",
-				"GameManager"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 143,
-			"question": "What is the primary purpose of an Animator Controller in Unity?",
-			"options": [
-				"To control physics behaviors",
-				"To manage UI transitions",
-				"To manage animation states and transitions",
-				"To edit prefabs directly",
-				"To import 3D models"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 144,
-			"question": "AnimationWindow in Unity is used to create and edit what?",
-			"options": [
-				"UI Panels",
-				"Rigidbodies",
-				"Cameras",
-				"Keyframe animations",
-				"Terrain"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 145,
-			"question": "Which XR support package adds Project Settings for managing the platforms and plugins used by a Unity XR project?",
-			"options": [
-				"XR Plug-in Management",
-				"XR Hands",
-				"AR Foundation",
-				"XR Interaction Toolkit",
-				"OpenXR Plug-in"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 146,
-			"question": "What is the impact of switching from 'Perspective' to 'Orthographic' mode in Scene View?",
-			"options": [
-				"Affects the Game View camera",
-				"Displays wireframes only",
-				"Adds lighting visualization",
-				"Enables rendering of UI only",
-				"Removes vanishing point and shows flat view"
-			],
-			"correctAnswer": 4
-		},
-		{
-			"id": 147,
-			"question": "What does the loop property of an AudioSource do?",
-			"options": [
-				"Sets a delay before playback",
-				"Repeats the audio clip indefinitely",
-				"Changes the mixer group",
-				"Plays audio backward",
-				"Enables 3D spatialization"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 148,
-			"question": "How do anchors work in Unity UI?",
-			"options": [
-				"They provide physics-based constraints",
-				"They fix UI elements to screen corners",
-				"They allow dynamic resizing relative to parent",
-				"They reset pivot points to world origin",
-				"They attach elements to the Event System"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 149,
-			"question": "Which Unity element can be used to block raycasts underneath a UI panel?",
-			"options": [
-				"Graphic Raycaster",
-				"Canvas Group",
-				"Event Mask",
-				"Image (with Raycast Target enabled)",
-				"Raycast Filter"
-			],
-			"correctAnswer": 3
 		}
 	]
 }
