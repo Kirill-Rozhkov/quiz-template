@@ -32,18 +32,19 @@ function App() {
 
 	const {
 		currentQuestion,
-		selectedAnswer,
-		showResults,
-		quizStarted,
-		showAnswerResult,
-		totalQuestions,
-		currentQ,
-		handleAnswerSelect,
-		handleNextQuestion,
-		calculateScore,
-		resetQuiz,
-		startQuiz,
-	} = useQuiz(questionsData?.questions || [])
+                selectedAnswers,
+                showResults,
+                quizStarted,
+                showAnswerResult,
+                totalQuestions,
+                currentQ,
+                handleAnswerSelect,
+                handleSubmitAnswer,
+                handleNextQuestion,
+                calculateScore,
+                resetQuiz,
+                startQuiz,
+        } = useQuiz(questionsData?.questions || [])
 
 	if (loading) {
 		return (
@@ -105,14 +106,15 @@ function App() {
 					totalQuestions={totalQuestions}
 				/>
 
-				<QuestionCard
-					question={currentQ}
-					selectedAnswer={selectedAnswer}
-					onAnswerSelect={handleAnswerSelect}
-					onNext={handleNextQuestion}
-					isLastQuestion={currentQuestion === totalQuestions - 1}
-					showAnswerResult={showAnswerResult}
-				/>
+                                <QuestionCard
+                                        question={currentQ}
+                                        selectedAnswers={selectedAnswers}
+                                        onAnswerSelect={handleAnswerSelect}
+                                        onSubmitAnswer={handleSubmitAnswer}
+                                        onNext={handleNextQuestion}
+                                        isLastQuestion={currentQuestion === totalQuestions - 1}
+                                        showAnswerResult={showAnswerResult}
+                                />
 			</div>
 		</div>
 	)
