@@ -1,296 +1,1130 @@
 {
-	"questions": [
-		{
-			"id": 1,
-			"question": "For certain services like Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS), you can invest in reserved capacity. What options are available for Reserved Instances? (Choose three.)",
-			"options": ["AURI", "MURI", "NURI", "PURI", "DURI"],
-			"correctAnswers": [0, 2, 3]
-		},
-		{
-			"id": 2,
-			"question": "Where can a customer go to get more details about Amazon Elastic Compute Cloud (Amazon EC2) billing activity that took place 3 months ago? (Select the best answer.)",
-			"options": [
-				"Amazon EC2 dashboard",
-				"AWS Cost Explorer",
-				"AWS Trusted Advisor dashboard",
-				"AWS CloudTrail logs stored in Amazon Simple Storage Service (Amazon S3)"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 3,
-			"question": "True or false? To receive the discounted rate associated with Reserved Instances, you must make a full, upfront payment for the term of the agreement.",
-			"options": ["True", "False"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 4,
-			"question": "Which statement is true about the pricing model on AWS? (Select the best answer.)",
-			"options": [
-				"In most cases, there is a per gigabyte charge for inbound data transfer.",
-				"Storage is typically charged per gigabyte.",
-				"Compute is typically charged as a monthly fee based on instance type.",
-				"Outbound charges are free up to a per account limit."
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 5,
-			"question": "What are the four support plans offered by AWS Support? (Select the best answer.)",
-			"options": [
-				"Basic, Developer, Business, Enterprise",
-				"Basic, Startup, Business, Enterprise",
-				"Free, Bronze, Silver, Gold",
-				"All support is free"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 6,
-			"question": "What AWS tool lets you explore AWS services and create an estimate for the cost of your use cases on AWS? (Select the best answer.)",
-			"options": [
-				"AWS Pricing Calculator",
-				"AWS Budgets",
-				"AWS Cost and Usage Report",
-				"AWS Billing Dashboard"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 7,
-			"question": "As AWS grows, the cost of doing business is reduced and savings are passed back to the customer with lower pricing. What is this optimization called? (Select the best answer.)",
-			"options": [
-				"Expenditure awareness",
-				"Economies of scale",
-				"Matching supply and demand",
-				"EC2 Right Sizing"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 8,
-			"question": "True or false? AWS offers some services at no charge (for example, Amazon VPC, IAM, Consolidated Billing, Elastic Beanstalk, Auto Scaling, OpsWorks, CloudFormation). However, you might be charged for other AWS services that you use in conjunction with these services.",
-			"options": ["True", "False"],
-			"correctAnswer": 0
-		},
-		{
-			"id": 9,
-			"question": "What are benefits of using AWS Organizations? (Choose two.)",
-			"options": [
-				"Replaces existing AWS Identity and Access Management (IAM) policies with service control policies (SCPs), which are simpler to manage",
-				"Provides the ability to create groups of accounts and then attach policies to a group",
-				"Provides the ability to create an unlimited number of nested organizational units (OUs) to support your desired structure",
-				"Simplifies automating account creation and management by using APIs",
-				"Prevents any restrictions from being put on the root user that is associated with the main organization in an account"
-			],
-			"correctAnswers": [1, 3]
-		},
-		{
-			"id": 10,
-			"question": "True or false? Unlimited services are available with the AWS Free Tier to new AWS customers for 12 months following their AWS sign-up date.",
-			"options": ["True", "False"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 11,
-			"question": "Which component of the AWS Global Infrastructure does Amazon CloudFront use to ensure low-latency delivery? (Select the best answer.)",
-			"options": [
-				"AWS Regions",
-				"AWS edge locations",
-				"AWS Availability Zones",
-				"Amazon Virtual Private Cloud (Amazon VPC)"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 12,
-			"question": "You can run applications and workloads from a Region closer to the end users to ______ latency.",
-			"options": ["increase", "decrease"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 13,
-			"question": "True or False? Networking, storage, compute, and databases are examples of service categories that AWS offers.",
-			"options": ["True", "False"],
-			"correctAnswer": 0
-		},
-		{
-			"id": 14,
-			"question": "Which of the following are geographic areas that host two or more Availability Zones? (Select the best answer.)",
-			"options": [
-				"AWS Origins",
-				"AWS Regions",
-				"Compute zones",
-				"Edge locations"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 15,
-			"question": "_____ means the infrastructure has built-in component redundancy and _____ means that resources dynamically adjust to increases or decreases in capacity requirements.",
-			"options": [
-				"No human intervention, fault tolerant",
-				"Elastic and scalable, no human intervention",
-				"Fault tolerant, elastic and scalable",
-				"Fault tolerant, no human intervention",
-				"Elastic and scalable, fault tolerant"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 16,
-			"question": "True or False? Availability Zones within a Region are connected through low-latency links.",
-			"options": ["True", "False"],
-			"correctAnswer": 0
-		},
-		{
-			"id": 17,
-			"question": "Which of these statements about Availability Zones is not true? (Select the best answer.)",
-			"options": [
-				"Availability Zones are designed for fault isolation.",
-				"Availability Zones are made up of one or more data centers.",
-				"A data center can be used for more than one Availability Zone.",
-				"Availability Zones are connected to each other using high-speed private links."
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 18,
-			"question": "What is true about Regions? (Choose two.)",
-			"options": [
-				"Each Region is located in a separate geographic area.",
-				"They are the physical locations of your customers.",
-				"All Regions are located in one specific geographic area.",
-				"A Region is a physical location that has multiple Availability Zones."
-			],
-			"correctAnswers": [0, 3]
-		},
-		{
-			"id": 19,
-			"question": "AWS highly recommends provisioning your compute resources across ______ Availability Zones. (Select the best answer.)",
-			"options": ["all", "no", "multiple", "single"],
-			"correctAnswer": 2
-		},
-		{
-			"id": 20,
-			"question": "True or False? Edge locations are only located in the same general area as Regions.",
-			"options": ["True", "False"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 21,
-			"question": "In the shared responsibility model, AWS is responsible for providing what? (Select the best answer.)",
-			"options": [
-				"Security of the cloud",
-				"Security to the cloud",
-				"Security for the cloud",
-				"Security in the cloud"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"id": 22,
-			"question": "In the shared responsibility model, which of the following are examples of `security in the cloud`? (Choose two.)",
-			"options": [
-				"Compliance with compute security standards and regulations",
-				"Physical security of the facilities in which the services operate",
-				"Security group configurations",
-				"Encryption of data at rest and data in transit",
-				"Protecting the global infrastructure"
-			],
-			"correctAnswers": [2, 3]
-		},
-		{
-			"id": 23,
-			"question": "Which of the following is the responsibility of AWS under the AWS shared responsibility model? (Select the best answer.)",
-			"options": [
-				"Configuring third-party applications",
-				"Maintaining physical hardware",
-				"Security application access and data",
-				"Managing custom Amazon Machine Images (AMIs)"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"id": 24,
-			"question": "When creating an AWS Identity and Access Management (IAM) policy, what are the two types of access that can be granted to a user? (Choose two.)",
-			"options": [
-				"Institutional access",
-				"Authorized access",
-				"Programmatic access",
-				"AWS Management Console access",
-				"Administrative root access"
-			],
-			"correctAnswers": [2, 3]
-		},
-		{
-			"id": 25,
-			"question": "True or False? AWS Organizations enables you to consolidate multiple AWS accounts so that you centrally manage them.",
-			"options": ["True", "False"],
-			"correctAnswer": 0
-		},
-		{
-			"id": 26,
-			"question": "Which of the following are best practices to secure your account using AWS Identity and Access Management (IAM)? (Choose two.)",
-			"options": [
-				"Provide users with default administrative privileges.",
-				"Leave unused and unnecessary users and credentials in place.",
-				"Manage access to AWS resources.",
-				"Avoid using IAM groups to grant the same access permissions to multiple users.",
-				"Define fine-grained access rights."
-			],
-			"correctAnswers": [2, 4]
-		},
-		{
-			"id": 27,
-			"question": "Which of the following should be done by the AWS account root user? (Select the best answer.)",
-			"options": [
-				"Secure access for applications",
-				"Integrate with other AWS services",
-				"Change granular permissions",
-				"Change the AWS support plan"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 28,
-			"question": "After initial login, what does AWS recommend as the best practice for the AWS account root user? (Select the best answer.)",
-			"options": [
-				"Delete the AWS account root user",
-				"Revoke all permissions on the AWS account root user",
-				"Restrict permission on the AWS account root user",
-				"Delete the access keys of the AWS account root user"
-			],
-			"correctAnswer": 3
-		},
-		{
-			"id": 29,
-			"question": "How would a system administrator add an additional layer of login security to a user's AWS Management Console? (Select the best answer.)",
-			"options": [
-				"Use Amazon Cloud Directory",
-				"Audit AWS Identity and Access Management (IAM) roles",
-				"Enable multi-factor authentication",
-				"Enable AWS CloudTrail"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"id": 30,
-			"question": "True or False? AWS Key Management Service (AWS KMS) enables you to assess, audit, and evaluate the configurations of your AWS resources.",
-			"options": ["True", "False"],
-			"correctAnswer": 1
-		},
-		{
-			"id": 31,
-			"question": "With Amazon Virtual Private Cloud (Amazon VPC), what is the smallest size subnet you can have in a VPC? (Select the best answer.)",
-			"options": ["/26", "/30", "/28", "/24"],
-			"correctAnswer": 2
-		},
-		{
-			"id": 32,
-			"question": "With Amazon Virtual Private Cloud (Amazon VPC), what is the maximum size IP address range you can have in a VPC? (Select the best answer.)",
-			"options": ["/16", "/24", "/30", "/28"],
-			"correctAnswer": 0
-		}
-	]
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the advantages of cloud computing over computing on-premises?",
+      "options": [
+        "Avoid large capital purchases",
+        "Use on-demand capacity",
+        "Increase speed and agility",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 2,
+      "question": "What is the pricing model that enables AWS customers to pay for resources on an as-needed basis?",
+      "options": [
+        "Reserved pricing",
+        "Spot pricing",
+        "Pay as you go",
+        "Upfront contracts"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of these is not a cloud deployment?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "System administration as a service"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "question": "True or False? AWS owns and maintains the network‑connected hardware required for application services, while you provision and use what you need.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of these is not a benefit of cloud computing over on‑premises computing?",
+      "options": [
+        "Elastic capacity",
+        "Global reach",
+        "Pay for racking, stacking, and powering services",
+        "On‑demand resources"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "Which of the following are not benefits of AWS Cloud computing?",
+      "options": [
+        "High Latency",
+        "Multiple procurement cycles",
+        "Global availability",
+        "Rapid elasticity"
+      ],
+      "correctAnswers": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a compute service?",
+      "options": [
+        "Amazon S3",
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon CloudFront"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "True or False? Cloud computing provides a simple way to access servers, storage, databases, and a broad set of application services over the internet. You own the hardware required and AWS provisions what you need.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "Economies of Scale result from _______.",
+      "options": [
+        "Having a few large enterprise customers",
+        "Having hundreds of thousands of customers aggregated in the cloud",
+        "Purchasing hardware annually",
+        "Regional restrictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "For services like Amazon EC2 and Amazon RDS, what options are available for Reserved Instances?",
+      "options": [
+        "AURI, NURI, PURI",
+        "1-year only",
+        "3-year only",
+        "Spot‑only discounts"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "Where can a customer get detailed Amazon EC2 billing activity from 3 months ago?",
+      "options": [
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Pricing Calculator",
+        "Billing PDF export only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "True or False? To receive the discounted rate for Reserved Instances, you must make a full, upfront payment for the term.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "There is no charge for which of the following?",
+      "options": [
+        "Inbound data transfer (with some exceptions)",
+        "Data transfer between services within the same AWS Region",
+        "Outbound data to the internet",
+        "Cross‑Region data transfer"
+      ],
+      "correctAnswers": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the four AWS Support plans?",
+      "options": [
+        "Basic, Developer, Business, Enterprise",
+        "Bronze, Silver, Gold, Platinum",
+        "Starter, Pro, Business, Ultimate",
+        "Personal, Team, Org, Global"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "Which AWS tool compares the cost of running on‑premises to AWS?",
+      "options": [
+        "AWS Pricing Calculator",
+        "Total Cost of Ownership (TCO) calculator",
+        "AWS Cost Explorer",
+        "AWS Budgets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "As AWS grows, lower pricing passed to customers due to reduced cost of business is called:",
+      "options": [
+        "Right‑sizing",
+        "Economies of scale",
+        "Spot optimization",
+        "Savings Plans"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "True or False? Some AWS services are offered at no charge, but you might be charged for services used with them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "When are free data transfers applicable across AWS?",
+      "options": [
+        "Inbound data transfer to Amazon EC2",
+        "Outbound data transfer between services in the same Region",
+        "All outbound to the internet",
+        "Cross‑Region transfer"
+      ],
+      "correctAnswers": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "question": "True or False? Unlimited services are available with the AWS Free Tier to new customers for 12 months.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "Which AWS Global Infrastructure component does Amazon CloudFront use to ensure low‑latency delivery?",
+      "options": [
+        "AWS Regions",
+        "AWS Edge locations",
+        "AWS Availability Zones",
+        "Amazon VPC"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "Running applications from a Region closer to users will ______ latency.",
+      "options": [
+        "Increase",
+        "Decrease"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "True or False? Networking, storage, compute and databases are AWS service categories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "Which statement about Availability Zones is NOT true?",
+      "options": [
+        "Designed for fault isolation",
+        "Made up of one or more data centers",
+        "Connected with high‑speed private links",
+        "A data center can be used for more than one Availability Zone"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "question": "What is true about Regions? (Choose two)",
+      "options": [
+        "They are the physical locations of your customers",
+        "All Regions are in one geographic area",
+        "A Region is a physical location with multiple Availability Zones",
+        "Regions have no Availability Zones",
+        "Each Region is in a separate geographic area"
+      ],
+      "correctAnswers": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Which are geographic areas that host two or more Availability Zones?",
+      "options": [
+        "AWS Origin",
+        "AWS Regions",
+        "Compute Zones",
+        "Edge Locations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "_____ means built‑in component redundancy and _____ means resources dynamically adjust to demand.",
+      "options": [
+        "No human intervention, fault‑tolerant",
+        "Fault‑tolerant, no human intervention",
+        "Elastic & scalable, fault‑tolerant",
+        "Elastic & scalable, no human intervention",
+        "Fault‑tolerant, elastic & scalable"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 27,
+      "question": "True or False? Availability Zones within a Region are connected via low‑latency links.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "AWS recommends provisioning compute resources across _____ Availability Zones.",
+      "options": [
+        "All",
+        "None",
+        "Multiple",
+        "Single"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 29,
+      "question": "True or False? Edge locations are only located in the same general area as Regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is the AWS Shared Responsibility Model?",
+      "options": [
+        "Security of the Cloud",
+        "Security in the Cloud",
+        "Shared billing only",
+        "Networking only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "In the shared responsibility model, which are examples of 'Security IN the cloud'?",
+      "options": [
+        "Compliance with physical security",
+        "Physical security of facilities",
+        "Security group configurations",
+        "Encrypt data at rest and in transit",
+        "Protect the global infrastructure"
+      ],
+      "correctAnswers": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Which is AWS's responsibility under the shared responsibility model?",
+      "options": [
+        "Configuring third‑party apps",
+        "Maintaining physical hardware",
+        "Securing application access & data",
+        "Managing custom AMIs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "When creating an IAM user, what two types of access can be granted?",
+      "options": [
+        "Institutional Access",
+        "Authorized Access",
+        "Programmatic Access",
+        "AWS Management Console Access",
+        "Administrative Root Access"
+      ],
+      "correctAnswers": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 34,
+      "question": "AWS Organizations enables you to centrally manage multiple AWS accounts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "Best practices to secure your account with IAM? (Choose two)",
+      "options": [
+        "Provide default admin privileges",
+        "Leave unused users/keys",
+        "Manage access to AWS resources",
+        "Avoid IAM groups",
+        "Define fine‑grained access rights"
+      ],
+      "correctAnswers": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Which task should be done by the AWS account root user?",
+      "options": [
+        "Secure application access",
+        "Integrate with other AWS services",
+        "Change granular permissions",
+        "Change the AWS Support plan"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 37,
+      "question": "After initial login, what is best practice for the root user?",
+      "options": [
+        "Delete the root user",
+        "Revoke all permissions",
+        "Restrict permission",
+        "Delete the access keys"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 38,
+      "question": "How to add an extra login security layer to a user's AWS console?",
+      "options": [
+        "Use Amazon Cloud Directory",
+        "Audit IAM roles",
+        "Enable multi‑factor authentication (MFA)",
+        "Enable AWS CloudTrail"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "question": "AWS KMS enables you to assess, audit, and evaluate resource configurations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "Which AWS networking service enables a company to create a virtual network within AWS?",
+      "options": [
+        "AWS Config",
+        "Amazon Route 53",
+        "AWS Direct Connect",
+        "Amazon VPC"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 41,
+      "question": "With Amazon VPC, what is the smallest size subnet you can have in a VPC?",
+      "options": [
+        "/28",
+        "/30",
+        "/24",
+        "/26"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "With Amazon VPC, what is the maximum size IP address range you can have in a VPC?",
+      "options": [
+        "/28",
+        "/16",
+        "/30",
+        "/24"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "You need to allow resources in a private subnet to access the internet. What must be present?",
+      "options": [
+        "Network ACLs",
+        "Security groups",
+        "NAT gateway",
+        "Route tables"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 44,
+      "question": "Private subnets have direct access to the internet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "Which component of AWS Global Infrastructure does CloudFront use to ensure low latency?",
+      "options": [
+        "AWS Regions",
+        "AWS Availability Zones",
+        "AWS edge locations",
+        "Amazon VPC"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 46,
+      "question": "Which is an optional security control at the subnet layer of a VPC?",
+      "options": [
+        "Network ACL",
+        "Security group",
+        "Web application firewall",
+        "Firewall"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "When you create a new VPC, what happens by default?",
+      "options": [
+        "Three subnets in one AZ",
+        "A main route table is created",
+        "Three subnets across AZs",
+        "An internet gateway is created"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "Which can be used to protect Amazon EC2 instances hosted in AWS?",
+      "options": [
+        "Internet Gateway",
+        "All of the above",
+        "AMI",
+        "Security group"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 49,
+      "question": "You assign VPC CIDR 10.0.1.0/24 (256 addresses). How many IPs are available?",
+      "options": [
+        "251",
+        "256",
+        "246",
+        "250"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "Why is AWS more economical than traditional data centers for varying workloads?",
+      "options": [
+        "EC2 costs billed monthly",
+        "Full admin access retained",
+        "Run enough instances permanently",
+        "Launch on‑demand when needed"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 51,
+      "question": "For monthly reports iterating through very large data amounts, which EC2 purchasing option to consider?",
+      "options": [
+        "Spot Instances",
+        "Scheduled Reserved Instances",
+        "Dedicated Hosts",
+        "On‑Demand Instances"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "question": "What is included in an Amazon Machine Image (AMI)?",
+      "options": [
+        "Template for the root volume",
+        "Launch permissions",
+        "Block device mappings",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 53,
+      "question": "Which EC2 feature ensures your instances will not share a physical host with other customers?",
+      "options": [
+        "Amazon VPC",
+        "Placement Groups",
+        "Dedicated Instances",
+        "Reserved Instances"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 54,
+      "question": "Which is a serverless compute service in AWS?",
+      "options": [
+        "AWS Config",
+        "AWS Lambda",
+        "AWS OpsWorks",
+        "Amazon EC2"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 55,
+      "question": "Which AWS service enables developers to easily deploy and manage applications?",
+      "options": [
+        "Amazon ECS",
+        "AWS Elastic Beanstalk",
+        "AWS OpsWorks",
+        "AWS CloudFormation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "question": "Your app needs 4 instances steady; on last day traffic triples. Most cost‑effective approach?",
+      "options": [
+        "Run 12 Reserved all the time",
+        "Run 4 On‑Demand then +8 On‑Demand last day",
+        "Run 4 Reserved then +8 On‑Demand last day",
+        "Run 4 On‑Demand then +8 Reserved last day"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 57,
+      "question": "True or False? Containers contain an entire operating system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 58,
+      "question": "Which EC2 option is best for long‑term workloads with predictable usage?",
+      "options": [
+        "Spot Instances",
+        "On‑Demand Instances",
+        "Reserved Instances"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 59,
+      "question": "When launching a new EC2 Windows instance, which must be specified? (Choose two)",
+      "options": [
+        "EC2 instance type",
+        "Amazon Machine Image (AMI)",
+        "The EC2 instance ID",
+        "Password for the administrator account",
+        "Security group"
+      ],
+      "correctAnswers": [
+        1
+      ]
+    },
+    {
+      "id": 60,
+      "question": "True or False? Amazon S3 is object storage suitable for flat files like docs and photos.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "question": "Amazon S3 replicates all objects _____.",
+      "options": [
+        "On multiple volumes within an AZ",
+        "In multiple Availability Zones within the same Region",
+        "Across multiple Regions",
+        "On multiple S3 buckets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 62,
+      "question": "Which can be used as a storage class for an S3 lifecycle policy? (Choose three)",
+      "options": [
+        "S3 Standard",
+        "AWS Storage Gateway",
+        "S3 Infrequent Access",
+        "S3 Glacier",
+        "S3 Reduced Redundancy Storage",
+        "Amazon DynamoDB"
+      ],
+      "correctAnswers": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "question": "The name of an S3 bucket must be unique ______.",
+      "options": [
+        "Worldwide across all AWS accounts",
+        "Within a Region",
+        "Across all your AWS accounts",
+        "Within your AWS account"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 64,
+      "question": "You can use Amazon Elastic File System (Amazon EFS) to:",
+      "options": [
+        "Provide elastic file storage only within AWS",
+        "Implement storage for EC2 instances that multiple VMs can access simultaneously",
+        "Host a CDN for websites",
+        "Generate user‑specific content"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 65,
+      "question": "Amazon EBS is recommended when data ______ and ______. (Choose two)",
+      "options": [
+        "Requires object‑level storage",
+        "Must be quickly accessible, requiring long‑term persistence",
+        "Requires an encryption solution",
+        "Needs to be stored in a different AZ than the EC2 instance"
+      ],
+      "correctAnswers": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 66,
+      "question": "By default, all data stored in Amazon S3 is viewable by the public.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 67,
+      "question": "Regarding Amazon S3 Glacier, what is a Vault?",
+      "options": [
+        "Rules for archive access",
+        "An object (files, docs, videos)",
+        "A container for storing archives",
+        "A policy identifying who can access Glacier content"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 68,
+      "question": "True or False? When you create a bucket in Amazon S3, it is associated with a specific AWS Region.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 69,
+      "question": "Which are features of Amazon Elastic Block Store (Amazon EBS)? (Choose two)",
+      "options": [
+        "Data on an EBS volume is lost when the attached instance is stopped",
+        "EBS volumes can be encrypted transparently",
+        "EBS data is automatically backed up to tape",
+        "Data on EBS is automatically replicated within an Availability Zone"
+      ],
+      "correctAnswers": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 70,
+      "question": "Which database is best to hold session state for hundreds of thousands of concurrent users?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "Amazon S3"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 71,
+      "question": "You need to find an item in a DynamoDB table using a non‑key attribute. Which operation should you use?",
+      "options": [
+        "PutItem",
+        "Scan",
+        "Query",
+        "GetItem"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 72,
+      "question": "In DynamoDB, what does the Query operation enable you to do?",
+      "options": [
+        "Query a table using the partition key and optional sort key filter",
+        "Query any secondary indexes on a table",
+        "Efficiently retrieve items from a table or secondary index",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 73,
+      "question": "Which service is best for analyzing data using SQL and existing BI tools?",
+      "options": [
+        "Amazon RDS",
+        "Amazon S3 Glacier",
+        "Amazon DynamoDB",
+        "Amazon Redshift"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 74,
+      "question": "In DynamoDB, an attribute is ______.",
+      "options": [
+        "A fundamental data element",
+        "A collection of items",
+        "A collection of attributes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 75,
+      "question": "Which use case is appropriate for Amazon RDS?",
+      "options": [
+        "Massive read/write rates",
+        "Simple GET/PUT requests",
+        "Complex transactions",
+        "All of the above"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 76,
+      "question": "A .NET app with MySQL wants HA and automated backups on AWS. Which database fits best?",
+      "options": [
+        "Amazon DynamoDB",
+        "Amazon RDS",
+        "Amazon Aurora",
+        "Amazon Redshift"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 77,
+      "question": "If you need extremely fast performance, fast scalability, and schema flexibility, which service?",
+      "options": [
+        "Amazon RDS",
+        "Amazon ElastiCache",
+        "Amazon DynamoDB",
+        "Amazon Redshift"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 78,
+      "question": "True or False? Amazon RDS automatically patches DB software and performs backups for point‑in‑time recovery.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 79,
+      "question": "What should you consider when choosing database type?",
+      "options": [
+        "Data size",
+        "Data access period",
+        "Query frequency",
+        "All of the above",
+        "High availability"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 80,
+      "question": "Which is NOT one of the four areas of the Performance Efficiency pillar?",
+      "options": [
+        "Tradeoffs",
+        "Selection",
+        "Traceability",
+        "Monitoring"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 81,
+      "question": "Which is a principle when designing cloud‑based systems?",
+      "options": [
+        "Build tightly coupled components",
+        "Make infrequent, large batch changes",
+        "Assume everything will fail",
+        "Use as many services as possible"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 82,
+      "question": "Which are pillars of the AWS Well‑Architected Framework? (Choose three)",
+      "options": [
+        "Security",
+        "Persistence",
+        "Operational Excellence",
+        "Cost Optimization"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Recommended design principles for performance efficiency? (Choose two)",
+      "options": [
+        "Enable traceability",
+        "Use serverless architectures",
+        "Analyze and attribute expenditure",
+        "Match supply with demand",
+        "Democratize advanced technologies"
+      ],
+      "correctAnswers": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 84,
+      "question": "AWS Trusted Advisor provides insight in which five categories?",
+      "options": [
+        "Performance, cost optimization, security, fault tolerance, service limits",
+        "Security, fault tolerance, high availability, connectivity, service limits",
+        "Performance, cost optimization, access control, connectivity, security",
+        "Security, access control, high availability, performance, service limits"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 85,
+      "question": "What is the focus of the Sustainability pillar?",
+      "options": [
+        "Designing for quick recovery",
+        "Minimizing environmental impacts of running cloud workloads",
+        "Avoiding unnecessary cost",
+        "Automating updates"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 86,
+      "question": "The AWS Well‑Architected Framework is organized into how many pillars?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 87,
+      "question": "Which online tool can assist in security compliance after moving to AWS?",
+      "options": [
+        "Amazon Kinesis",
+        "AWS Support",
+        "AWS Trusted Advisor",
+        "Amazon CloudWatch"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 88,
+      "question": "Which is a measure of a system's ability to provide functionality when desired by the user?",
+      "options": [
+        "Availability",
+        "Fault Tolerance",
+        "Reliability",
+        "Performance Efficiency"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 89,
+      "question": "What is the ability of a system to remain operational even if some components fail?",
+      "options": [
+        "High durability",
+        "Fault tolerance",
+        "High availability"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 90,
+      "question": "Which best describes a system that withstands some degradation, has minimal downtime, and needs minimal human intervention?",
+      "options": [
+        "Scalable",
+        "Fault tolerant",
+        "Elastic",
+        "Highly available"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 91,
+      "question": "Which AWS tools help your application scale up/down based on demand? (Choose two)",
+      "options": [
+        "Availability Zones",
+        "Amazon EC2 Auto Scaling",
+        "AWS CloudFormation",
+        "Elastic Load Balancing",
+        "AWS Config"
+      ],
+      "correctAnswers": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 92,
+      "question": "Which service sends alerts based on Amazon CloudWatch alarms?",
+      "options": [
+        "Amazon Simple Notification Service (SNS)",
+        "AWS CloudTrail",
+        "AWS Trusted Advisor",
+        "Amazon Route 53"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 93,
+      "question": "Characteristics of Amazon EC2 Auto Scaling? (Choose three)",
+      "options": [
+        "Only supports dynamic scaling",
+        "Responds by adding/terminating instances",
+        "Delivers push notifications",
+        "Launches instances from a specified AMI",
+        "Enforces a minimum number of running instances"
+      ],
+      "correctAnswers": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 94,
+      "question": "What must be configured on an Elastic Load Balancer to accept incoming traffic?",
+      "options": [
+        "A port",
+        "A network interface",
+        "A listener",
+        "An instance"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 95,
+      "question": "Elements used to create an EC2 Auto Scaling launch configuration? (Choose three)",
+      "options": [
+        "Amazon Machine Image (AMI)",
+        "Load balancer",
+        "Instance type",
+        "VPC and Subnets",
+        "Amazon EBS volumes"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 96,
+      "question": "Which service helps you collect important metrics from RDS and EC2 instances?",
+      "options": [
+        "Amazon CloudFront",
+        "Amazon CloudSearch",
+        "Amazon CloudWatch",
+        "AWS CloudTrail",
+        "Amazon EC2 Auto Scaling"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 97,
+      "question": "Which are elements of an Auto Scaling group? (Choose three)",
+      "options": [
+        "Maximum size",
+        "Health checks",
+        "Desired capacity",
+        "Minimum size"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 98,
+      "question": "A team needs a log of all access to AWS resources in the account. Which service provides this?",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS CloudTrail",
+        "Amazon EC2",
+        "Amazon SNS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 99,
+      "question": "In Elastic Load Balancing, when an unhealthy target is detected, which are true? (Choose three)",
+      "options": [
+        "Stops routing traffic to that target",
+        "Triggers an alarm",
+        "Resumes routing when the target is healthy again",
+        "Resumes routing only when manually restarted",
+        "Routes traffic to a healthy target"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        4
+      ]
+    }
+  ]
 }
